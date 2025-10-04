@@ -1029,7 +1029,7 @@
 
 
 % Table of contents chapter title
-\newcommand{\thetableofcontentstitle}{In this issue}
+\newcommand{\thetableofcontentstitle}{Nesta edição}
 
 
 % Suppress table of contents title and add our own

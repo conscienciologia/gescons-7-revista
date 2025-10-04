@@ -15,7 +15,12 @@ qual a proposta de autogestao do voluntariado
 mapear o ganho evolutivo
 
 - planejamento entre gestões, longo prazo
-- 
 
 
-> latexmk -f -pdf -shell-escape -file-line-error -interaction=nonstopmode main.tex/eduar/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+clean
+
+> latexmk -c  main.tex
+
+build:
+
+> latexmk -f -pdf -shell-escape -file-line-error -interaction=nonstopmode main.tex
