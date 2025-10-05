@@ -284,7 +284,7 @@
   % More control over the presentation of itemize, description, and enumerate
     enumitem,
   % Pictures.
-    eso-pic,
+    eso-pic, % This package makes it easy to add some picture commands to every page at absolute positions
   % Offers programming facilities for LaTeX
     etoolbox,
   % Stuff that should be executed every page
