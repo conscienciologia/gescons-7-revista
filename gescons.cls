@@ -354,7 +354,7 @@
     hidelinks
 ]{hyperref}
 
-
+\RequirePackage[defaultlines=4,all]{nowidow}
 
 
 
@@ -1306,7 +1306,7 @@
     \ignorespacesafterend
     \vspace{-1.3\baselineskip}
     \end{leftbar}
-    \vspace{-.5\baselineskip}
+    %\vspace{-.5\baselineskip}
 }
 
 
