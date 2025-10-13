@@ -252,6 +252,9 @@
 
 
 \definecolor{darkbluecmyk}{cmyk}{1, 0.5, 0, 0.53}
+% tom clarinho derivado (≈ 8% da cor + 92% branco)
+\colorlet{rowshade}{darkbluecmyk!8}        % ajuste 6–12 conforme o gosto
+% (alternativa explícita) \colorlet{rowshade}{darkbluecmyk!8!white}
 
 
 %    A   b i g   a s s - l i s t
@@ -341,6 +344,9 @@
     wallpaper,
   % For inserting floating images
     wrapfig,
+  % tabelas
+    longtable,
+    array
 }
 
 % Hyperlink support. You will want to load this package as late as possible.
