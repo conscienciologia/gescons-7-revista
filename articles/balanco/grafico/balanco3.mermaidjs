@@ -1,0 +1,12 @@
+---
+config:
+  logLevel: debug
+  theme: redux
+---
+timeline
+    2016 : 10 lançamentos : 1 reedição : 10 e-books
+    2017 : 13 lançamentos : 5 reedições : 9 e-books
+    2018 : 14 lançamentos : 11 reimpressões : 1 e-book
+    2019 : 16 lançamentos : 15 reimpressões : 4 e-books
+    2020 : 21 lançamentos : 5 reimpressões : 8 e-books
+    2021 : 29 lançamentos : 28 reimpressões : 1 e-book

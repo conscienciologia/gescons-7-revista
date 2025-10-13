@@ -157,7 +157,7 @@ RESUMO DO BIÊNIO
 
 **Magda:** Eu tinha feito o curso de preparação de lideranças da Unicin, mas na época não compreendia bem o que representava. No curso, cheguei a dizer que não assumiria nenhuma gestão. Perguntaram do que eu estava me escondendo --- e essa pergunta ficou ecoando, me fazendo refletir.
 
-**Ana:** E ainda por cima assumir a gestão da Editares, que tem uma atividade relacionada à toda CCCI. Eu também não pensava em coordenação, nem em voluntariar na Editares. Mas, ao publicar meu livro *Antologia da Técnica de Mais um Ano de Vida*, senti vontade de ajudar mais, pois me identifiquei com o trabalho. Aos poucos, percebi o quanto isso se conecta com a minha proéxis: auxiliar outras pessoas a escreverem seus livros.
+**Ana:** E ainda por cima assumir a gestão da Editares, que tem uma atividade relacionada à toda CCCI. Eu também não pensava em coordenação, nem em voluntariar na Editares. Mas, ao publicar meu livro _Antologia da Técnica de Mais um Ano de Vida_, senti vontade de ajudar mais, pois me identifiquei com o trabalho. Aos poucos, percebi o quanto isso se conecta com a minha proéxis: auxiliar outras pessoas a escreverem seus livros.
 
 **Quais foram os maiores desafios enfrentados na gestão da editora nesse período? Que aprendizados pessoais e grupais vocês destacariam dessa experiência?**
 
@@ -181,7 +181,7 @@ RESUMO DO BIÊNIO
 
 **Que mensagem final gostariam de deixar para os leitores e voluntários da Conscienciologia?**
 
-**Ana:** Se uma oportunidade ou desafio bater à sua porta, abrace-o e leve até o fim. No final, reflita: *o que aprendi com isso?*
+**Ana:** Se uma oportunidade ou desafio bater à sua porta, abrace-o e leve até o fim. No final, reflita: _o que aprendi com isso?_
 
 **Magda:** Apesar dos desafios da coordenação, esse trabalho vale muito a pena. Ele contribui diretamente para o amadurecimento pessoal, grupal e intraconsciencial.
 
@@ -195,7 +195,7 @@ RESUMO DO BIÊNIO
 
 No dia 23 de outubro de 2024, a Editares completou duas décadas de atuação dedicada à publicação técnico-científica de obras conscienciológicas. Para marcar os 20 anos de existência, a editora promoveu uma série de atividades comemorativas ao longo da semana, integrando voluntários, autores e leitores em momentos de reflexão, confraternização e interassistência.
 
-A programação contou com uma **semana de verbetes temáticos**, realizada no *Tertuliarium* do CEAEC, com a participação de autores e leitores em debates e apresentações de temas relacionados ao propósito editorial da Editares. Também houve um **Círculo Mentalsomático temático**, focado na escrita interassistencial e na importância das publicações para a expansão da Conscienciologia.
+A programação contou com uma **semana de verbetes temáticos**, realizada no _Tertuliarium_ do CEAEC, com a participação de autores e leitores em debates e apresentações de temas relacionados ao propósito editorial da Editares. Também houve um **Círculo Mentalsomático temático**, focado na escrita interassistencial e na importância das publicações para a expansão da Conscienciologia.
 
 Um dos pontos altos da celebração foi o **lançamento do livro "Interassistência"**, de autoria da voluntária do Conselho Editorial, **Roberta Bouchardet**. A obra amplia a abordagem da assistência multidimensional.
 
@@ -227,21 +227,21 @@ RESUMO DO BIÊNIO
 
 **Editares conquista a Certificação Institucional da UNICIN em 2024**
 
-A Editares recebeu, pela segunda vez, a *Certificação Institucional da UNICIN,* após avaliação realizada em 2024. A primeira certificação ocorreu em 2019. Esse reconhecimento reforça o alinhamento da IC à maxiproéxis grupal da *Comunidade Conscienciológica Cosmoética Internacional* (CCCI) e ao compromisso contínuo com a interassistencialidade tarística.
+A Editares recebeu, pela segunda vez, a _Certificação Institucional da UNICIN,_ após avaliação realizada em 2024. A primeira certificação ocorreu em 2019. Esse reconhecimento reforça o alinhamento da IC à maxiproéxis grupal da _Comunidade Conscienciológica Cosmoética Internacional_ (CCCI) e ao compromisso contínuo com a interassistencialidade tarística.
 
-A *Certificação Institucional* promovida pela UNICIN não tem caráter técnico ou legal como as certificações normativas nacionais, mas representa um *aval grupal,* validando a atuação funcional e interassistencial da IC dentro do fluxo da CCCI.
+A _Certificação Institucional_ promovida pela UNICIN não tem caráter técnico ou legal como as certificações normativas nacionais, mas representa um _aval grupal,_ validando a atuação funcional e interassistencial da IC dentro do fluxo da CCCI.
 
-O processo é coordenado pelo *Comitê Conscienciocêntrico da UNICIN,* que envia um formulário-padrão às *Instituições Conscienciocêntricas* (ICs). As respostas são analisadas por conselhos especializados:
+O processo é coordenado pelo _Comitê Conscienciocêntrico da UNICIN,_ que envia um formulário-padrão às _Instituições Conscienciocêntricas_ (ICs). As respostas são analisadas por conselhos especializados:
 
--   Conselho de Interassistência Jurídica da Conscienciologia (CIAJUC)
+- Conselho de Interassistência Jurídica da Conscienciologia (CIAJUC)
 
--   Conselho Intercientífico
+- Conselho Intercientífico
 
--   Conselho de Parapedagogia
+- Conselho de Parapedagogia
 
--   Conselho Intervoluntariado
+- Conselho Intervoluntariado
 
--   Conselho de Interassistência em Economia, Finanças e Orientação Fiscal (CIEFFI)
+- Conselho de Interassistência em Economia, Finanças e Orientação Fiscal (CIEFFI)
 
 A certificação visa verificar o grau de maturidade institucional em aspectos como gestão, interassistência, parapedagogia, voluntariado e sustentabilidade organizacional, sempre sob a ótica dos princípios conscienciais.
 
@@ -252,7 +252,7 @@ Editares agradece à UNICIN e aos conselhos envolvidos pela seriedade no process
 **Ana Claudia Prado**
 
 **Magda Stapf Amancio\
-***Coordenadoras Editares -- Biênio 2024--2025*
+\***Coordenadoras Editares -- Biênio 2024--2025\*
 
 **\[INSERIR UMA DAS FOTOS DA PASTA "MATÉRIA 3"\]**
 
@@ -261,13 +261,13 @@ RESUMO DO BIÊNIO
 **Conscienciologia em Expansão: Distribuição de Publicações no\
 Japão e Europa**
 
-***Expedição Paracientífica para a Expo 2025 Osaka viabiliza publicação do primeiro suplemento da Revista Holotecologia em inglês e lança miniglossário conscienciológico inglês-japonês.***
+**_Expedição Paracientífica para a Expo 2025 Osaka viabiliza publicação do primeiro suplemento da Revista Holotecologia em inglês e lança miniglossário conscienciológico inglês-japonês._**
 
-*Por Luziânia Medeiros e Paulo Abrantes*
+_Por Luziânia Medeiros e Paulo Abrantes_
 
-*Coordenadores da Expedição Paracientífica Expo 2025 Osaka*
+_Coordenadores da Expedição Paracientífica Expo 2025 Osaka_
 
-A *Expedição Paracientífica Expo 2025 Osaka* consistiu numa viagem técnica grupal, planejada em detalhes durante 2 anos, incluindo instrumentos de registro e documentação para coleta, sistematização, discussão, aprofundamento e síntese dos achados e parachados. Tudo isso visando pensar o *Megacentro Cultural Holoteca* em ambiente universalista, pacífico e multicultural de uma Expo Mundial. Ao mesmo tempo, considerando o tema dessa Expo 2025 em Osaka, *projetando a sociedade do futuro para nossas vidas,* objetivamos **contribuir com o conceito de Cognópolis como nosso modelo inovador de sociedade do futuro**.
+A _Expedição Paracientífica Expo 2025 Osaka_ consistiu numa viagem técnica grupal, planejada em detalhes durante 2 anos, incluindo instrumentos de registro e documentação para coleta, sistematização, discussão, aprofundamento e síntese dos achados e parachados. Tudo isso visando pensar o _Megacentro Cultural Holoteca_ em ambiente universalista, pacífico e multicultural de uma Expo Mundial. Ao mesmo tempo, considerando o tema dessa Expo 2025 em Osaka, _projetando a sociedade do futuro para nossas vidas,_ objetivamos **contribuir com o conceito de Cognópolis como nosso modelo inovador de sociedade do futuro**.
 
 **GESTAÇÃO DE PUBLICAÇÕES**
 
@@ -279,13 +279,13 @@ Por outro lado, estávamos indo para o Japão, e parte da equipe da Expedição 
 
 A produção dessas publicações estava a todo vapor, porém havia um desafio: como financiar as impressões. Daí surgiu a ideia de captação por meio de um item colecionável, uma edição limitada da moeda comemorativa da Expedição. As doações ganharam força e o recurso arrecadado possibilitou a impressão de **1000 revistas e 500 mini-glossários.** Essa realização foi grupal, voluntária e com o propósito de divulgar as ideias da Conscienciologia para o público internacional mais amplo.
 
-O material chegou há tempo de ser levado por alguns pesquisadores que estavam de viagem para vários países da Europa, em curso itinerante do *Cosmovisão* promovido pela Assinvéxis. Foram disponibilizados dezenas de exemplares da revista *Holothecology,* distribuídos em países como Inglaterra, França, Áustria e Suíça. Segundo relatos, a revista ajudou a criar pontes de interlocução em diferentes contextos ao longo da viagem.
+O material chegou há tempo de ser levado por alguns pesquisadores que estavam de viagem para vários países da Europa, em curso itinerante do _Cosmovisão_ promovido pela Assinvéxis. Foram disponibilizados dezenas de exemplares da revista _Holothecology,_ distribuídos em países como Inglaterra, França, Áustria e Suíça. Segundo relatos, a revista ajudou a criar pontes de interlocução em diferentes contextos ao longo da viagem.
 
-O transporte das obras para o Japão foi possível devido à colaboração dos integrantes da Expedição, que disponibilizaram espaço em suas bagagens para levar 1 kit padrão de publicações composto por 10 revistas, 10 miniglossários e 4 *Our Evolution*. Além disso, levamos conjuntos do *Léxico de Ortopensatas* e o *Manual dos Megapensenes Trivocabulares*. **A união faz a força!**
+O transporte das obras para o Japão foi possível devido à colaboração dos integrantes da Expedição, que disponibilizaram espaço em suas bagagens para levar 1 kit padrão de publicações composto por 10 revistas, 10 miniglossários e 4 _Our Evolution_. Além disso, levamos conjuntos do _Léxico de Ortopensatas_ e o _Manual dos Megapensenes Trivocabulares_. **A união faz a força!**
 
 **BALANÇO E PROSPECTIVAS**
 
-Distribuímos no Japão 260 *Miniglossários*, 215 *Holothecology*, 36 *Our Evolution*, 2 *Léxicos de Ortopensatas* e 1 *Manual dos Megapensenes Trivocabulares*. As publicações foram deixadas em 8 cidades do Japão, incluindo bibliotecas, sebos, universidades e instituições, e na Expo circularam em pelo menos 43 pavilhões de países dos 5 continentes, e em pavilhões de instituições internacionais como ONU, União Europeia, Cruz Vermelha e Bureau International des Expositions (BIE). Sem falar dos contatos espontâneos com japoneses em vários locais visitados no Japão e com pessoas de várias nacionalidades que visitavam a Expo.
+Distribuímos no Japão 260 _Miniglossários_, 215 _Holothecology_, 36 _Our Evolution_, 2 _Léxicos de Ortopensatas_ e 1 _Manual dos Megapensenes Trivocabulares_. As publicações foram deixadas em 8 cidades do Japão, incluindo bibliotecas, sebos, universidades e instituições, e na Expo circularam em pelo menos 43 pavilhões de países dos 5 continentes, e em pavilhões de instituições internacionais como ONU, União Europeia, Cruz Vermelha e Bureau International des Expositions (BIE). Sem falar dos contatos espontâneos com japoneses em vários locais visitados no Japão e com pessoas de várias nacionalidades que visitavam a Expo.
 
 Foram estabelecidos vários canais de contatos com pessoas e instituições, verdadeiras **pontes interassistenciais** de natureza variada a serem cultivadas e desenvolvidas ao longo dos próximos anos.
 
@@ -295,23 +295,23 @@ A revista, por sua vez, plantou a semente do modelo de sociedade que vem se dese
 
 Essas iniciativas fortalecem o avanço do Megacentro Cultural Holoteca, um megaempreendimento grupal prioritário, de natureza policármica, abrangente, e que contribuirá para a consolidação da Conscienciologia no planeta.
 
-**\[INSERIR FOTOS DA PASTA MATÉRIA 4 - *falta receber essas fotos*\]**
+**\[INSERIR FOTOS DA PASTA MATÉRIA 4 - _falta receber essas fotos_\]**
 
 RESUMO DO BIÊNIO
 
 **Da Ideia do Autor às Mãos do Leitor: o Fluxo Editorial Conscienciológico**
 
-***Processo editorial une rigor, voluntariado e compromisso para lançar obras conscienciológicas***
+**_Processo editorial une rigor, voluntariado e compromisso para lançar obras conscienciológicas_**
 
-*Por Ana Claudia Prado e Magda Stapf*
+_Por Ana Claudia Prado e Magda Stapf_
 
-*Coordenação Geral da Editares*
+_Coordenação Geral da Editares_
 
 Publicar um livro não é apenas escrever. Na Editares, cada obra passa por um processo integrado que alia rigor editorial, trabalho voluntário e compromisso interassistencial tarístico para **garantir qualidade e relevância** antes de chegar ao leitor.
 
-O fluxo editorial começa com o envio dos originais textuais pelo autor para o e-mail da Editares. Em seguida, o material é organizado na plataforma *Trello Editorial* e submetido à pré-análise por uma equipe voluntária, que analisa conteúdo, estrutura e a forma. Quando necessário, o texto retorna ao autor para melhorias até estar pronto para avançar.
+O fluxo editorial começa com o envio dos originais textuais pelo autor para o e-mail da Editares. Em seguida, o material é organizado na plataforma _Trello Editorial_ e submetido à pré-análise por uma equipe voluntária, que analisa conteúdo, estrutura e a forma. Quando necessário, o texto retorna ao autor para melhorias até estar pronto para avançar.
 
-Com a aprovação da pré-análise, o material textual ingressa no fluxo formal de produção editorial, que contempla parecer técnico, assinatura do termo de cessão de direitos autorais, e revisões linguístico-textual e de conteúdo e forma --- conhecidas como *Confor.* Durante esta etapa, o editor e revisores especializados trabalham em parceria com o autor, garantindo autenticidade e qualidade técnica.
+Com a aprovação da pré-análise, o material textual ingressa no fluxo formal de produção editorial, que contempla parecer técnico, assinatura do termo de cessão de direitos autorais, e revisões linguístico-textual e de conteúdo e forma --- conhecidas como _Confor._ Durante esta etapa, o editor e revisores especializados trabalham em parceria com o autor, garantindo autenticidade e qualidade técnica.
 
 Com o texto finalizado, o livro passa para a diagramação, momento em que o conteúdo ganha forma gráfica, tornando-se fluido e agradável à leitura. O autor pode optar pela diagramação voluntária da Editares ou contratar um profissional externo. Antes de seguir para a impressão, uma prova física é cuidadosamente revisada para assegurar o acabamento.
 
@@ -321,7 +321,7 @@ Mais do que um produto editorial, cada título publicado pela Editares represent
 
 **FLUXO EDITORIAL DE OBRA CONSCIENCIOLÓGICA**
 
-***[(solicitar imagem em alta resolução à Ana Cláudia)]{.underline}***
+**_[(solicitar imagem em alta resolução à Ana Claudia)]{.underline}_**
 
 ![](media/image1.png){width="5.020833333333333in" height="3.1145833333333335in"}
 
@@ -331,303 +331,327 @@ RESUMO DO BIÊNIO
 
 **[LANÇAMENTOS DE OBRAS EM PORTUGUÊS]{.mark}**
 
-  --------------------------------------------------------------------------------------------------------------------------------------------
-  **Título**                                                                            **Autor**                             **Lançamento**
-  ------------------------------------------------------------------------------------- ------------------------------------- ----------------
-  **Autolegado Evolutivo**                                                              **Haydée Melo**                       06/04/2024
+---
 
-  **Mutatis Mutandis: Teoria e Prática da Reciclagem Existencial**                      **Luimara Schmit**                    10/08/2024
+**Título** **Autor** **Lançamento**
 
-  **Megapensenes Trivocabulares Pró-evolutivos**                                        **Michel Chad**                       17/08/2024
+---
 
-  **Epicentrismo Consciencial: Casuísticas Recinológicas**                              **Ana Luiza Rezende e Mabel Teles**   24/08/2024
+**Autolegado Evolutivo** **Haydée Melo** 06/04/2024
 
-  **Interassistência: Teoria e Prática sob a Ótica da Conscienciologia**                **Roberta Bouchardet**                19/10/2024
+**Mutatis Mutandis: Teoria e Prática da Reciclagem Existencial** **Luimara Schmit** 10/08/2024
 
-  **Gratidão: Reconhecer, Expressar e Retribuir**                                       **Karine Brito**                      16/11/2024
+**Megapensenes Trivocabulares Pró-evolutivos** **Michel Chad** 17/08/2024
 
-  **Autoexperimentação Conscienciológica**                                              **Alexandre Zaslavsky**               23/11/2024
+**Epicentrismo Consciencial: Casuísticas Recinológicas** **Ana Luiza Rezende e Mabel Teles** 24/08/2024
 
-  **O Calidoscópio da evolução consciencial**                                           **Maria Cristina Bassanesi**          30/11/2024
+**Interassistência: Teoria e Prática sob a Ótica da Conscienciologia** **Roberta Bouchardet** 19/10/2024
 
-  **Ortoprincípios Norteadores da Invéxis**                                             **Ricardo Rezende**                   07/10/2024
+**Gratidão: Reconhecer, Expressar e Retribuir** **Karine Brito** 16/11/2024
 
-  **Ações Antifanatismo**                                                               **Daniel Mamede**                     26/04/2025
+**Autoexperimentação Conscienciológica** **Alexandre Zaslavsky** 23/11/2024
 
-  **Autoidentificação Proexológica**                                                    **Ricardo Rezende**                   28/06/2025
+**O Calidoscópio da evolução consciencial** **Maria Cristina Bassanesi** 30/11/2024
 
-  **Eitologia: Teática Inversiva**                                                      **Pedro Borges**                      12/07/2025
+**Ortoprincípios Norteadores da Invéxis** **Ricardo Rezende** 07/10/2024
 
-  **Retomada de Tarefa: Reencontro com o Paradever Intermissivo**                       **Ana Mazzonetto**                    19/07/2025
+**Ações Antifanatismo** **Daniel Mamede** 26/04/2025
 
-  **Autoinversão Existencial: Compreensão e Vivência**                                  **Paula Gabriella Barbosa**           26/07/2025
+**Autoidentificação Proexológica** **Ricardo Rezende** 28/06/2025
 
-  **Estado Vibracional: 100 Perguntas e Respostas**                                     **Victor Bolfe**                      02/08/2025
+**Eitologia: Teática Inversiva** **Pedro Borges** 12/07/2025
 
-  **Migrações Proexológicas Internacionais**                                            **Virgínia Ruiz**                     30/08/2025
+**Retomada de Tarefa: Reencontro com o Paradever Intermissivo** **Ana Mazzonetto** 19/07/2025
 
-  **Autoconscientização Grafopensênica**                                                **Denise Paro**                       07/09/2025
+**Autoinversão Existencial: Compreensão e Vivência** **Paula Gabriella Barbosa** 26/07/2025
 
-  **Tanatofobia: da Ressignificação da Existência à Superação do Medo da Morte**        **Walderley Carvalho**                14/09/2025
+**Estado Vibracional: 100 Perguntas e Respostas** **Victor Bolfe** 02/08/2025
 
-  **Diário de um Iniciante na Tenepes**                                                 **Ghunter Kismann**                   20/09/2025
+**Migrações Proexológicas Internacionais** **Virgínia Ruiz** 30/08/2025
 
-  **Imobilidade Física Vígil: Autopesquisa Experimentológica**                          **Fátima Fernandes**                  27/09/2025
+**Autoconscientização Grafopensênica** **Denise Paro** 07/09/2025
 
-  **Seleção Consciencial**                                                              **Roberto Kunz**                      04/10/2025
+**Tanatofobia: da Ressignificação da Existência à Superação do Medo da Morte** **Walderley Carvalho** 14/09/2025
 
-  **Libertações Evolutivas: Trajetória Semperaprendente Sob Olhar Conscienciológico**   **Helena Araújo**                     11/10/2025
+**Diário de um Iniciante na Tenepes** **Ghunter Kismann** 20/09/2025
 
-  **Da Labilidade Parapsíquica A Assistencialidade Lúcida: Uma Trajetória Evolutiva**   **Luis Claudio Resende**              08/11/2025
+**Imobilidade Física Vígil: Autopesquisa Experimentológica** **Fátima Fernandes** 27/09/2025
 
-  **A Lógica do Pensene**                                                               **Isabela Collares**                  15/11/2025
+**Seleção Consciencial** **Roberto Kunz** 04/10/2025
 
-  **Coadjuvantes da Invéxis**                                                           **Felipe Oliveira**                   22/11/2025
+**Libertações Evolutivas: Trajetória Semperaprendente Sob Olhar Conscienciológico** **Helena Araújo** 11/10/2025
 
-  **Dicionário de Paradireito: Exemplarium**                                            **Marlene Roque**                     06/12/2025
+**Da Labilidade Parapsíquica A Assistencialidade Lúcida: Uma Trajetória Evolutiva** **Luis Claudio Resende** 08/11/2025
 
-  **TOTAL**                                                                             **2024: 9 títulos**                   **2025: 17**
-  --------------------------------------------------------------------------------------------------------------------------------------------
+**A Lógica do Pensene** **Isabela Collares** 15/11/2025
+
+**Coadjuvantes da Invéxis** **Felipe Oliveira** 22/11/2025
+
+**Dicionário de Paradireito: Exemplarium** **Marlene Roque** 06/12/2025
+
+**TOTAL** **2024: 9 títulos** **2025: 17**
+
+---
 
 **[REEDIÇÕES DE OBRAS]{.mark}**
 
-  --------------------------------------------------------------------------------------------------------------
-  **Título**                                                               **Autor**             **Edição**
-  ------------------------------------------------------------------------ --------------------- ---------------
-  **Estado Vibracional: Vivências e Autoqualificação**                     **Victor Bolfe**      **2ª Edição**
+---
 
-  **Conscienciograma**                                                     **Waldo Vieira**      **2ª Edição**
+**Título** **Autor** **Edição**
 
-  **Profilaxia das Manipulações Conscienciais**                            **Mabel Teles**       **3ª Edição**
+---
 
-  **Manual de Publicações da Editares**                                    **Lane Galdino**      **2ª Edição**
+**Estado Vibracional: Vivências e Autoqualificação** **Victor Bolfe** **2ª Edição**
 
-  **Higiene Consciencial: Reconquistando a Homeostase no microuniverso**   **Eduardo Martins**   **3ª Edição**
+**Conscienciograma** **Waldo Vieira** **2ª Edição**
 
-  **Mentalsomaticidade Evolutiva: Estudos Iniciais**                       **Ricardo Rezende**   **2ª Edição**
+**Profilaxia das Manipulações Conscienciais** **Mabel Teles** **3ª Edição**
 
-  **Voluntariado Conscienciológico Interassistencial**                     **Ricardo Rezende**   **2ª Edição**
+**Manual de Publicações da Editares** **Lane Galdino** **2ª Edição**
 
-  **Sem Medo da Morte: Construindo uma Realidade Multidimensional**        **Vera Hoffmann**     **2ª Edição**
+**Higiene Consciencial: Reconquistando a Homeostase no microuniverso** **Eduardo Martins** **3ª Edição**
 
-  **Qualificações da Consciência**                                         **Júlio Almeida**     **2ª Edição**
+**Mentalsomaticidade Evolutiva: Estudos Iniciais** **Ricardo Rezende** **2ª Edição**
 
-  **TOTAL**                                                                **9**                 
-  --------------------------------------------------------------------------------------------------------------
+**Voluntariado Conscienciológico Interassistencial** **Ricardo Rezende** **2ª Edição**
+
+**Sem Medo da Morte: Construindo uma Realidade Multidimensional** **Vera Hoffmann** **2ª Edição**
+
+**Qualificações da Consciência** **Júlio Almeida** **2ª Edição**
+
+**TOTAL** **9**
+
+---
 
 **[LANÇAMENTOS DE OBRAS IMPRESSAS EM OUTROS IDIOMAS]{.mark}**
 
-  ----------------------------------------------------------------------------------------------------------------------------
-  **Título**                                                        **Autor**                                    **Idioma**
-  ----------------------------------------------------------------- -------------------------------------------- -------------
-  **Der Kleine Forscher - Multidimensionalität**                    **Débora Klippel**                           Alemão
+---
 
-  **Glossário Árabe -- Inglês**                                     **Orgs. Mohammed Alamassi e Fátima Yahya**   Árabe
+**Título** **Autor** **Idioma**
 
-  **Nossa Evolução**                                                **Waldo Vieira**                             Árabe
+---
 
-  **La Vida Sigue**                                                 **Betânia Abreu**                            Espanhol
+**Der Kleine Forscher - Multidimensionalität** **Débora Klippel** Alemão
 
-  **Síndrome de la Dispersión Conciencial**                         **Neida Cardoso**                            Espanhol
+**Glossário Árabe -- Inglês** **Orgs. Mohammed Alamassi e Fátima Yahya** Árabe
 
-  **Prescripciones para el autodesasedio**                          **Maxmiliano Haymann**                       Espanhol
+**Nossa Evolução** **Waldo Vieira** Árabe
 
-  **Nuestra Evolución**                                             **Waldo Vieira**                             Espanhol
+**La Vida Sigue** **Betânia Abreu** Espanhol
 
-  **Que és la Concienciología**                                     **Waldo Vieira**                             Espanhol
+**Síndrome de la Dispersión Conciencial** **Neida Cardoso** Espanhol
 
-  **Manual de la Teneper**                                          **Waldo Vieira**                             Espanhol
+**Prescripciones para el autodesasedio** **Maxmiliano Haymann** Espanhol
 
-  **Glossário Francês-Português**                                   **Org. Marlise Combet et al**                Francês
+**Nuestra Evolución** **Waldo Vieira** Espanhol
 
-  **Courage to Evolve**                                             **Luciano Vicenzi**                          Inglês
+**Que és la Concienciología** **Waldo Vieira** Espanhol
 
-  **Megastrongtrait**                                               **Dayane Rossa**                             Inglês
+**Manual de la Teneper** **Waldo Vieira** Espanhol
 
-  **Anti Energetic Rubbish**                                        **Katia Arakaki**                            Inglês
+**Glossário Francês-Português** **Org. Marlise Combet et al** Francês
 
-  **Life Goes On**                                                  **Betânia Abreu**                            Inglês
+**Courage to Evolve** **Luciano Vicenzi** Inglês
 
-  **Manuale del Ceneper**                                           **Waldo Vieira**                             Italiano
+**Megastrongtrait** **Dayane Rossa** Inglês
 
-  **Manuale della Proesis**                                         **Waldo Vieira**                             Italiano
+**Anti Energetic Rubbish** **Katia Arakaki** Inglês
 
-  **Il Piccolo Ricercatore**                                        **Débora Klippel**                           Italiano
+**Life Goes On** **Betânia Abreu** Inglês
 
-  **The English-Japanese Mini-Glossary of Conscientiology Terms**   **Orgs. Keiko Asaoka et al**                 Japonês
+**Manuale del Ceneper** **Waldo Vieira** Italiano
 
-  **Barbara zboară către stele**                                    **Jayme Pereira**                            Romeno
+**Manuale della Proesis** **Waldo Vieira** Italiano
 
-  **Evoluția noastră**                                              **Waldo Vieira**                             Romeno
-  ----------------------------------------------------------------------------------------------------------------------------
+**Il Piccolo Ricercatore** **Débora Klippel** Italiano
+
+**The English-Japanese Mini-Glossary of Conscientiology Terms** **Orgs. Keiko Asaoka et al** Japonês
+
+**Barbara zboară către stele** **Jayme Pereira** Romeno
+
+**Evoluția noastră** **Waldo Vieira** Romeno
+
+---
 
 **[REIMPRESSÕES DE OBRAS]{.mark}**
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Título**                                                                                                           **Autor**
-  -------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------
-  **A Vida Segue: Diário de Experiências Projetivas**                                                                  **Betânia Abreu**
+---
 
-  **Antibagulhismo Energético**                                                                                        **Kátia Arakaki**
+**Título** **Autor**
 
-  **Autoexperimentação conscienciológica: Método dos Autotestes Experienciais, Pró-evolutivos e Multidimensionais**    **Alexandre Zaslavsky**
+---
 
-  **Autopesquisa Conscienciológicas: Práticas e Ferramentas**                                                          **Beatriz Tenius e Tatiana Lopes**
+**A Vida Segue: Diário de Experiências Projetivas** **Betânia Abreu**
 
-  **Competências Parapsíquicas: Técnicas para o Desenvolvimento do Parapsiquismo Interassistencial**                   **Almir Justi, Amin Lascani, Dayane Rossa**
+**Antibagulhismo Energético** **Kátia Arakaki**
 
-  **Consciência Centrada na Assistência**                                                                              **Flávia Rogick**
+**Autoexperimentação conscienciológica: Método dos Autotestes Experienciais, Pró-evolutivos e Multidimensionais** **Alexandre Zaslavsky**
 
-  **Contrapontos do Parapsiquismo: Superação do Assédio Intercosnciencial rumo à Desassedialidade Permanente Total**   **Cirlene Couto**
+**Autopesquisa Conscienciológicas: Práticas e Ferramentas** **Beatriz Tenius e Tatiana Lopes**
 
-  **Descrenciograma: Fundamentos e Teáticas**                                                                          **Oswaldo Vernet**
+**Competências Parapsíquicas: Técnicas para o Desenvolvimento do Parapsiquismo Interassistencial** **Almir Justi, Amin Lascani, Dayane Rossa**
 
-  **Desenvolvimento Conscienciográfico**                                                                               **Tatiana Lopes**
+**Consciência Centrada na Assistência** **Flávia Rogick**
 
-  **Diário de Experiências Cognopolitanas**                                                                            **Ermânia Ribeiro**
+**Contrapontos do Parapsiquismo: Superação do Assédio Intercosnciencial rumo à Desassedialidade Permanente Total** **Cirlene Couto**
 
-  **Energias: Você Percebe, Utiliza e Doa de modo Eficaz**                                                             **Maria Tereza Bolzan**
+**Descrenciograma: Fundamentos e Teáticas** **Oswaldo Vernet**
 
-  **Estado Vibracional: Vivências e Autoqualificação**                                                                 **Victor Bolfe**
+**Desenvolvimento Conscienciográfico** **Tatiana Lopes**
 
-  **Livros dos Credores Grupocármicos**                                                                                **Ernani Brito, Rosemary Sales e Sandra Tornieri**
+**Diário de Experiências Cognopolitanas** **Ermânia Ribeiro**
 
-  **Manual do Materpensene: a Síntese da Consciência**                                                                 **Guilherme Kunz**
+**Energias: Você Percebe, Utiliza e Doa de modo Eficaz** **Maria Tereza Bolzan**
 
-  **Megatrafor: Estudo do Maior Consciencial sob a Ótica da Multiexistencialidade**                                    **Dayane Rossa**
+**Estado Vibracional: Vivências e Autoqualificação** **Victor Bolfe**
 
-  **Nossa Evolução**                                                                                                   **Waldo Vieira**
+**Livros dos Credores Grupocármicos** **Ernani Brito, Rosemary Sales e Sandra Tornieri**
 
-  **Onde a Religião Termina**                                                                                          **Marcelo da Luz**
+**Manual do Materpensene: a Síntese da Consciência** **Guilherme Kunz**
 
-  **Prescrição para o Autodesassédio**                                                                                 **Maximiliano Haymann**
+**Megatrafor: Estudo do Maior Consciencial sob a Ótica da Multiexistencialidade** **Dayane Rossa**
 
-  **Projeções Assistenciais**                                                                                          **Marilza de Andrade**
+**Nossa Evolução** **Waldo Vieira**
 
-  **Retrocognições: Pesquisa da Memória de Vivências Passadas**                                                        **Wagner Alegretti**
+**Onde a Religião Termina** **Marcelo da Luz**
 
-  **Sem Medo da Morte: Construindo uma Realidade Multidimensional**                                                    **Vera Hoffmann**
+**Prescrição para o Autodesassédio** **Maximiliano Haymann**
 
-  **Thesaurus Terminológico da Conscienciologia em Português**                                                         **Eliane Bianchi Wojslaw, Rita Sawaya, Marina Thomaz, Mércia Oliveira e Augusto Freire**
+**Projeções Assistenciais** **Marilza de Andrade**
 
-  **Tridotação Consciencial: Teática Inversiva**                                                                       **Lucimara Ribas Frederico**
+**Retrocognições: Pesquisa da Memória de Vivências Passadas** **Wagner Alegretti**
 
-  **Viagens Internacionais: o Nomadismo da Conscienciologia**                                                          **Kátia Arakaki**
+**Sem Medo da Morte: Construindo uma Realidade Multidimensional** **Vera Hoffmann**
 
-  **Vontade: Consciência Inteira**                                                                                     **Dulce Daou**
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Thesaurus Terminológico da Conscienciologia em Português** **Eliane Bianchi Wojslaw, Rita Sawaya, Marina Thomaz, Mércia Oliveira e Augusto Freire**
+
+**Tridotação Consciencial: Teática Inversiva** **Lucimara Ribas Frederico**
+
+**Viagens Internacionais: o Nomadismo da Conscienciologia** **Kátia Arakaki**
+
+**Vontade: Consciência Inteira** **Dulce Daou**
+
+---
 
 **[PUBLICAÇÕES EM E-BOOKS E AUDIOBOOKS]{.mark}**
 
-  ------------------------------------------------------------------------------------
-  **Título**                                                        **Formato**
-  ----------------------------------------------------------------- ------------------
-  **História do Parapsiquismo**                                     *e-book*
+---
 
-  **Acoplamento Energético**                                        *e-book*
+**Título** **Formato**
 
-  **Contrapontos do Parapsiquismo**                                 *e-book*
+---
 
-  **Teoria e Prática da Experiência Fora do Corpo**                 *e-book*
+**História do Parapsiquismo** _e-book_
 
-  **Glosario de Términos Esenciales de la Concienciología**         *e-book*
+**Acoplamento Energético** _e-book_
 
-  **Conscienciologia: breve Introdução à Ciência da Consciência**   *e-book*
+**Contrapontos do Parapsiquismo** _e-book_
 
-  **A Consciência Centrada na Assistência**                         *e-book*
+**Teoria e Prática da Experiência Fora do Corpo** _e-book_
 
-  **Manual da Proéxis**                                             *audiobook*
+**Glosario de Términos Esenciales de la Concienciología** _e-book_
 
-  **O que é Conscienciologia?**                                     *audiobook*
-  ------------------------------------------------------------------------------------
+**Conscienciologia: breve Introdução à Ciência da Consciência** _e-book_
+
+**A Consciência Centrada na Assistência** _e-book_
+
+**Manual da Proéxis** _audiobook_
+
+**O que é Conscienciologia?** _audiobook_
+
+---
 
 **PUBLICAÇÕES DE PERIÓDICOS CONSCIENCIOLÓGICOS**
 
-  -----------------------------------------------------------------------
-  **Título**                                           **Quantidade**
-  ---------------------------------------------------- ------------------
-  **Conscientia**                                      **5 edições**
+---
 
-  **Scriptor**                                         **1 edição**
+**Título** **Quantidade**
 
-  **Interparadigmas**                                  **1 edição**
+---
 
-  **Editares**                                         **1 edição**
+**Conscientia** **5 edições**
 
-  **Holothecology (Suplemento)**                       **1 edição**
+**Scriptor** **1 edição**
 
-  **Gescons**                                          **1 edição**
+**Interparadigmas** **1 edição**
 
-  **Holotecologia**                                    **1 edição**
-  -----------------------------------------------------------------------
+**Editares** **1 edição**
+
+**Holothecology (Suplemento)** **1 edição**
+
+**Gescons** **1 edição**
+
+**Holotecologia** **1 edição**
+
+---
 
 RESUMO DO BIÊNIO
 
 **Voluntários: Quem faz a Editares Acontecer**
 
-*Por Ana Claudia Prado e Magda Stapf Amancio*
+_Por Ana Claudia Prado e Magda Stapf Amancio_
 
 A Editares é resultado do **esforço coletivo de consciências engajadas na tarefa do esclarecimento (tares)**. Cada livro, cada publicação e cada projeto só são possíveis graças à dedicação dos voluntários que integram nossas equipes. A seguir, apresentamos a listagem completa dos atuais voluntários, organizados por áreas de atuação, como forma de reconhecer e valorizar o trabalho diário que sustenta o trabalho editorial da instituição.
 
-*"Voluntariado: autodemonstração interassistencial."* (Vieira, 2014, p. 1.715)
+_"Voluntariado: autodemonstração interassistencial."_ (Vieira, 2014, p. 1.715)
 
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Equipes**                            | **Voluntários**                                                                                                                                                                                                      |
+| **Equipes** | **Voluntários** |
 +========================================+======================================================================================================================================================================================================================+
-| Acessibilidade                         | Fabiane Cattai; Lurdes Sousa; Rui Sousa; Sónia Luginger.                                                                                                                                                             |
+| Acessibilidade | Fabiane Cattai; Lurdes Sousa; Rui Sousa; Sónia Luginger. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Biblioteconomia                        | Beatriz Cestari; Betânia Abreu.                                                                                                                                                                                      |
+| Biblioteconomia | Beatriz Cestari; Betânia Abreu. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Comercial                              | Renata Pialarissi; Ricardo Rezende.                                                                                                                                                                                  |
+| Comercial | Renata Pialarissi; Ricardo Rezende. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Conselheiros Editoriais                | Ana Cláudia Prado; Ana Mazzonetto; Cecília Roma; Cristina Bornia; Cristina Ellwanger; José Ricardo Gomes; Leonardo Rodrigues; Liege Trentin; Magda Stapf; Meracilde Daroit; Patrícia Pialarissi; Roberta Bouchardet. |
+| Conselheiros Editoriais | Ana Claudia Prado; Ana Mazzonetto; Cecília Roma; Cristina Bornia; Cristina Ellwanger; José Ricardo Gomes; Leonardo Rodrigues; Liege Trentin; Magda Stapf; Meracilde Daroit; Patrícia Pialarissi; Roberta Bouchardet. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Coordenação                            | Ana Claudia Prado; Magda Stapf.                                                                                                                                                                                      |
+| Coordenação | Ana Claudia Prado; Magda Stapf. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Diagramação de ebooks                  | Erik Scardino; Luiz Eduardo Menezes; Márcia Perrusi; Maria Koltum; Rosana Cardoso.                                                                                                                                   |
+| Diagramação de ebooks | Erik Scardino; Luiz Eduardo Menezes; Márcia Perrusi; Maria Koltum; Rosana Cardoso. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Diagramação de livros                  | Daniel Ronque; Eduardo Santana; João Feliciano; Kátia Ávila; Liliana Ferreira.                                                                                                                                       |
+| Diagramação de livros | Daniel Ronque; Eduardo Santana; João Feliciano; Kátia Ávila; Liliana Ferreira. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Diagramação Gráfica de periódicos      | Ana Claudia Prado; Luciano Melo; Tatiane Mendonça.                                                                                                                                                                   |
+| Diagramação Gráfica de periódicos | Ana Claudia Prado; Luciano Melo; Tatiane Mendonça. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Editoração Internacional               | Cecília Roma; Marcos Paiva; Roberta Bouchardet.                                                                                                                                                                      |
+| Editoração Internacional | Cecília Roma; Marcos Paiva; Roberta Bouchardet. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Financeiro/Administrativo              | Alex Sarmento; Amanda Vieira;                                                                                                                                                                                        |
-|                                        |                                                                                                                                                                                                                      |
-|                                        | Conselho Fiscal (Carlos Moreno, Izabel Conceição e Maria Zilá).                                                                                                                                                      |
+| Financeiro/Administrativo | Alex Sarmento; Amanda Vieira; |
+| | |
+| | Conselho Fiscal (Carlos Moreno, Izabel Conceição e Maria Zilá). |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Lives (transmissões)                   | Blandina Monteiro; Lurdes Sousa; Rui Sousa.                                                                                                                                                                          |
+| Lives (transmissões) | Blandina Monteiro; Lurdes Sousa; Rui Sousa. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Mídias Sociais                         | Paula Gabriella Barbosa.                                                                                                                                                                                             |
+| Mídias Sociais | Paula Gabriella Barbosa. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Pareceristas                           | Amanda Vieira; Dayane Rossa; João Paulo; Liliana Ferreira; Márcia Perrusi; Rúbia Henning; Conselheiros Editoriais.                                                                                                   |
+| Pareceristas | Amanda Vieira; Dayane Rossa; João Paulo; Liliana Ferreira; Márcia Perrusi; Rúbia Henning; Conselheiros Editoriais. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Revisores de Diagramação e Prova Final | Niciano Vilas Boas.                                                                                                                                                                                                  |
+| Revisores de Diagramação e Prova Final | Niciano Vilas Boas. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Revisores Linguístico-Textual          | Bruno Camargo; Liliane Sakakima; Tatiane Mendonça.                                                                                                                                                                   |
+| Revisores Linguístico-Textual | Bruno Camargo; Liliane Sakakima; Tatiane Mendonça. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Voluntariado                           | Blandina Monteiro; Magda Stapf.                                                                                                                                                                                      |
+| Voluntariado | Blandina Monteiro; Magda Stapf. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Website                                | Leonardo Ribeiro.                                                                                                                                                                                                    |
+| Website | Leonardo Ribeiro. |
 +----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ATUALIZAÇÕES
 
 **Nova Escola de Editores impulsiona formação editoriológica na Editares**
 
-Em julho de 2025, teve início a *Escola de Editores Conscienciológicos.* Trata-se de iniciativa inédita, objetivando formar e qualificar voluntários do *Conselho Editorial*. O curso foi formulado pelos atuais conselheiros, ex-gestores da Editares, voluntários da UNICIN e da CCCI com experiência no processo editorial. **A meta é ampliar o número de editores, qualificar as publicações, otimizar o fluxo editorial e ampliar a interação entre os editores mais experientes com os novos**.
+Em julho de 2025, teve início a _Escola de Editores Conscienciológicos._ Trata-se de iniciativa inédita, objetivando formar e qualificar voluntários do _Conselho Editorial_. O curso foi formulado pelos atuais conselheiros, ex-gestores da Editares, voluntários da UNICIN e da CCCI com experiência no processo editorial. **A meta é ampliar o número de editores, qualificar as publicações, otimizar o fluxo editorial e ampliar a interação entre os editores mais experientes com os novos**.
 
-A *Escola* responde à crescente demanda de autores e livros. A proposta ganhou corpo com apoio da UNICIN, dentro do movimento de reestruturação institucional realizado em 2025. Com 11 módulos quinzenais aos domingos, em formato híbrido, o curso vai até dezembro deste ano, combinando teoria e prática editorial.
+A _Escola_ responde à crescente demanda de autores e livros. A proposta ganhou corpo com apoio da UNICIN, dentro do movimento de reestruturação institucional realizado em 2025. Com 11 módulos quinzenais aos domingos, em formato híbrido, o curso vai até dezembro deste ano, combinando teoria e prática editorial.
 
 A expectativa é consolidar a formação como etapa contínua da atuação editorial na CCCI, atraindo novos voluntários. A turma piloto servirá como base para ajustes e institucionalização futura da Escola, que poderá ter novas edições ou formato gravado.
 
 Estamos empolgados com a expectativa do que pode resultar em termos de mudança de patamar do conselho editorial!
 
-*Por Roberta Bouchardet & Amanda Vieira*
+_Por Roberta Bouchardet & Amanda Vieira_
 
-*Coordenadora & Monitora da Escola de Editores*
+_Coordenadora & Monitora da Escola de Editores_
 
-*\[foto das autoras\]*
+_\[foto das autoras\]_
 
 ATUALIZAÇÕES
 
@@ -645,11 +669,11 @@ Além disso, a Editares tem promovido **ações que fortalecem o vínculo entre 
 
 Essas iniciativas têm tornado a Editares mais presente e levam o conteúdo das gescons a um público cada vez maior. Ao divulgar trechos, ideias e reflexões dos livros, a Editares reforça seu papel como ponte entre o conhecimento conscienciológico e o leitor, expandindo a interassistência por meio da leitura.
 
-*Por Paula Gabriella*
+_Por Paula Gabriella_
 
-*Voluntária da Comunicação da Editares*
+_Voluntária da Comunicação da Editares_
 
-*\[Foto da autora\]*
+_\[Foto da autora\]_
 
 \[INSERIR FOTO QUE ESTÁ NA PASTA MATÉRIA 5\]
 
@@ -657,47 +681,47 @@ ATUALIZAÇÕES
 
 **Editares lança revista científica especializada em Editoriologia e Publicaciologia**
 
-A Associação Internacional Editares dedicada à editoração e publicação de gestações conscienciais, anunciou em novembro de 2025 o lançamento da **Revista Editares,** publicação científica voltada exclusivamente às especialidades de *Editoriologia e Publicaciologia.* O lançamento ocorreu durante evento temático sobre essas áreas de estudo: **II Simpósio Editoriologia e Publicaciologia.**
+A Associação Internacional Editares dedicada à editoração e publicação de gestações conscienciais, anunciou em novembro de 2025 o lançamento da **Revista Editares,** publicação científica voltada exclusivamente às especialidades de _Editoriologia e Publicaciologia._ O lançamento ocorreu durante evento temático sobre essas áreas de estudo: **II Simpósio Editoriologia e Publicaciologia.**
 
-A novidade representa um avanço em relação à edição especial da *Revista Gescons* nº 5, publicada em 2023, quando voluntários da Editares apresentaram, por meio de artigos científicos, os bastidores da produção editorial conscienciológica.
+A novidade representa um avanço em relação à edição especial da _Revista Gescons_ nº 5, publicada em 2023, quando voluntários da Editares apresentaram, por meio de artigos científicos, os bastidores da produção editorial conscienciológica.
 
 A escolha de um novo nome não se restringe a uma mudança formal. A decisão editorial visa demarcar, de modo preciso, o **caráter científico da publicação** e a construção de novos conhecimentos a partir de artigos técnicos nas duas especialidades.
 
-Com a criação da *Revista Editares,* a instituição passa a separar claramente os campos de atuação: enquanto a nova publicação concentra análises científicas, a *Revista Gescons* continua sendo o espaço para registro de lançamentos de livros e outras pontuações editoriais e administrativas.
+Com a criação da _Revista Editares,_ a instituição passa a separar claramente os campos de atuação: enquanto a nova publicação concentra análises científicas, a _Revista Gescons_ continua sendo o espaço para registro de lançamentos de livros e outras pontuações editoriais e administrativas.
 
 A iniciativa reforça o compromisso da Editares com o profissionalismo editorial, legitima processos de revisão mais exigentes de revisão por pares, fortalece a especialização temática e consolida a identidade científica da instituição.
 
-O primeiro número da *Revista Editares* reúne **treze artigos inéditos,** abordando desde os meandros do fluxo editorial até as vivências de voluntários no processo de editoração e publicação de obras conscienciológicas, sempre à luz do Paradigma Consciencial.
+O primeiro número da _Revista Editares_ reúne **treze artigos inéditos,** abordando desde os meandros do fluxo editorial até as vivências de voluntários no processo de editoração e publicação de obras conscienciológicas, sempre à luz do Paradigma Consciencial.
 
-*"Este é um momento de atualização do processo editorial da Editares, no qual reafirmamos publicamente nosso compromisso com a produção científica nas especialidades de Editoriologia e Publicaciologia"*, ressaltam as editoras Ana Claudia Prado e Ana Mazzonetto.
+_"Este é um momento de atualização do processo editorial da Editares, no qual reafirmamos publicamente nosso compromisso com a produção científica nas especialidades de Editoriologia e Publicaciologia"_, ressaltam as editoras Ana Claudia Prado e Ana Mazzonetto.
 
-*Por Ana Claudia Prado & Ana Mazzonetto*
+_Por Ana Claudia Prado & Ana Mazzonetto_
 
-*Editoras da Revista Editares*
+_Editoras da Revista Editares_
 
-*\[Foto das autoras\]*
+_\[Foto das autoras\]_
 
-*\[INSERIR MOCKUP DA REVISTA QUE ESTÁ NA PASTA MATÉRIA 6\]*
+_\[INSERIR MOCKUP DA REVISTA QUE ESTÁ NA PASTA MATÉRIA 6\]_
 
 ATUALIZAÇÕES
 
 **Editares e IIPC retomam parceria para ampliar a venda de livros**
 
-Neste ano, a Editares, coordenada pelas voluntárias Ana Claudia Prado e Magda Stapf, celebra acordo exitoso com a coordenação geral e equipe do IIPC, representados pelos Coordenadores Gerais Gabriel Araújo e Ailton Maia, pelo qual **as obras conscienciológicas** estão sendo disponibilizadas para compra nos acervos dos *Centros Educacionais de Autopesquisa* (CEAs) do *Instituto Internacional de Projeciologia e Cons­cienciologia* (IIPC).
+Neste ano, a Editares, coordenada pelas voluntárias Ana Claudia Prado e Magda Stapf, celebra acordo exitoso com a coordenação geral e equipe do IIPC, representados pelos Coordenadores Gerais Gabriel Araújo e Ailton Maia, pelo qual **as obras conscienciológicas** estão sendo disponibilizadas para compra nos acervos dos _Centros Educacionais de Autopesquisa_ (CEAs) do _Instituto Internacional de Projeciologia e Cons­cienciologia_ (IIPC).
 
 A renovação dessa parceria além de possibilitar a melhoria logística da distri­buição comercial desses livros, auxiliará na ampliação da difusão tarística dos livros pu­blicados de autores conscienciológicos ao permitir o acesso físico às gestações conscien­ciais para os visitantes e voluntários nos CEAs do IIPC.
 
-> *Por: Ricardo Rezende*
+> _Por: Ricardo Rezende_
 >
-> *Voluntário do Setor Comercial da Editares*
+> _Voluntário do Setor Comercial da Editares_
 
 ATUALIZAÇÕES
 
 **Grupos de trabalho com a UNICIN traçam planos para fortalecer a atuação da Editares**
 
-*Por Amanda Vieira*
+_Por Amanda Vieira_
 
-*Voluntária da Editares*
+_Voluntária da Editares_
 
 Em 2025, a Editares deu importante passo estratégico para potencializar sua atuação na produção e distribuição de gescons. Em parceria com a UNICIN e a UNIESCON, foram criados **dois grupos de trabalho (GTs)** voltados à reformulação de processos e à implantação de novas iniciativas, com foco em dois pontos principais: o fluxo editorial e a venda de livros.
 
@@ -707,19 +731,19 @@ Os encontros reuniram voluntários de diferentes ICs e áreas de atuação, evid
 
 Durante o primeiro semestre, os subgrupos trabalharam em diagnósticos detalhados, mapeando gargalos, levantando necessidades e propondo soluções. A partir desse estudo, foram elaborados planos de ação que começaram a ser implementados no segundo semestre de 2025.
 
-No **GT Comercial,** as iniciativas se voltaram à expansão da presença da Editares, com novos processos de marketing, estratégias de divulgação e ações de lançamento de livros. Já no **GT Editorial,** o destaque foi a criação da *Escola de Editores,* um projeto voltado à capacitação de voluntários para ampliar a qualidade técnica e a celeridade na editoração de obras conscienciológicas.
+No **GT Comercial,** as iniciativas se voltaram à expansão da presença da Editares, com novos processos de marketing, estratégias de divulgação e ações de lançamento de livros. Já no **GT Editorial,** o destaque foi a criação da _Escola de Editores,_ um projeto voltado à capacitação de voluntários para ampliar a qualidade técnica e a celeridade na editoração de obras conscienciológicas.
 
 **A FORÇA DO VOLUNTARIADO E A UNIÃO DAS ICS**
 
 O movimento reforça a relevância da união entre as Instituições Conscienciocêntricas como fator-chave para a expansão da Conscienciologia. A intercooperação entre Editares, UNICIN e UNIESCON potencializa a produção e a difusão das gescons, beneficiando pesquisadores, autores e leitores.
 
-Nesse contexto, o voluntariado se destaca como força motriz da *reurbanização extrafísica* (reurbex), atuando na materialização de projetos que impactam diretamente a evolução grupal. O livro, enquanto ferramenta de autopesquisa e recomposição grupocármica, cumpre papel central no esclarecimento e na ampliação da lucidez planetária.
+Nesse contexto, o voluntariado se destaca como força motriz da _reurbanização extrafísica_ (reurbex), atuando na materialização de projetos que impactam diretamente a evolução grupal. O livro, enquanto ferramenta de autopesquisa e recomposição grupocármica, cumpre papel central no esclarecimento e na ampliação da lucidez planetária.
 
 Com essas iniciativas, a Editares reafirma seu compromisso com a qualidade editorial, a celeridade dos processos e a ampliação da distribuição das obras conscienciológicas. Mais do que uma reorganização interna, trata-se de um movimento coletivo que coloca o livro e o conhecimento técnico ao serviço da evolução pessoal e grupal.
 
 ENTREVISTAS
 
-1.  ***Mutatis Mutandis:* Teoria e Prática da Reciclagem Existencial**
+1.  **_Mutatis Mutandis:_ Teoria e Prática da Reciclagem Existencial**
 
 2.  **Megapensenes Trivocabulares Pró-evolutivos**
 

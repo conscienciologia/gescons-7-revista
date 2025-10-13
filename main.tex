@@ -2,12 +2,17 @@
 \documentclass[a4paper]{gescons}
 
 \magazinename  {GENSCONS}
-\magazinetheme {Special GitHub issue}
+\magazinetheme {GENSCONS}
 \magazinevolume{7}
-\magazineissue {20XX}
+\magazineissue {2025}
 
 \usepackage[export]{adjustbox} % \adjincludegraphics com Clip/trim
 
+% --- codificação e idioma (pdfLaTeX) ---
+\RequirePackage[T1]{fontenc}        % encoding T1 -> hifeniza melhor em PT
+\RequirePackage[utf8]{inputenc}     % seu .tex está em UTF-8
+\RequirePackage[brazil]{babel}      % regras de hifenização PT-BR
+%\emergencystretch=2em               % evita overfull hbox
 
 \begin{document}
     % \frontpage{images/capa}{15}{15}
@@ -17,32 +22,69 @@
     \tableofcontents
 
     \include{articles/inicial/editorial}
-    %\include{articles/resumo/gestao}
-    %\include{articles/resumo/celebracao-20anos}
-    %\include{articles/resumo/congracamento}
-    %\include{articles/resumo/certificacao-unicin}
-    %\include{articles/resumo/japao-europa}
-    %\include{articles/resumo/fluxo-editorial}
-    %\include{articles/resumo/numeros}
-    %\include{articles/resumo/voluntarios-faz-acontecer}
+    
+    \genre{}
+    \title {Resumo do Biênio}
+    \author{}
+    \makecovertitle{articles/fundo-generico.png}{}
+
+    \include{articles/resumo/gestao}
+    \include{articles/resumo/celebracao-20anos}
+    \include{articles/resumo/congracamento}
+    \include{articles/resumo/certificacao-unicin}
+    \include{articles/resumo/japao-europa}
+    \include{articles/resumo/fluxo-editorial}
+    \include{articles/resumo/numeros}
+    \include{articles/resumo/voluntarios-faz-acontecer}
     \include{articles/atualizacoes/nova-escola-editores}
     \include{articles/atualizacoes/projetos-digitais}
-    %\include{articles/entrevista/Ana_Mazzonetto}
-    %\include{articles/entrevista/Cristina_Bassanesi}
-    %\include{articles/entrevista/Daniel_Mamede}
-    %\include{articles/entrevista/Karine_Brito}
-    %\include{articles/entrevista/Mabel_Teles_Ana_Luiza_Rezende}
-    %\include{articles/entrevista/Michel_Chad}
-    %\include{articles/entrevista/Paula_Gabriela}
-    %\include{articles/entrevista/Ricardo_Rezende_Autoidentificação}
-    %\include{articles/entrevista/Ricardo_Rezende_Ortoprincipios}
-    %\include{articles/entrevista/Roberta_Bouchardet}
+    \include{articles/atualizacoes/revista-cientifica}
+    
+    \genre{}
+    \title {Parcerias}
+    \author{}
+    \makecovertitle{articles/parceria/fundo-parceria.png}{}
+    %\makecovertitle{articles/fundo-generico.png}{}
+    
+    \include{articles/parceria/editares-iipc}
+    \include{articles/parceria/parceria-uniescon}
+    \include{articles/parceria/grupo-trabalho-unicin}
+    
+    \genre{}
+    \title {Entrevistas com os autores}
+    \author{}
+    \makecovertitle{articles/entrevista/fundo-entrevistas.png}{}
+
+    \include{articles/entrevista/Alexandre}
+    \include{articles/entrevista/Ana_Mazzonetto}
+    \include{articles/entrevista/Cristina_Bassanesi}
+    \include{articles/entrevista/Daniel_Mamede}
+    \include{articles/entrevista/Karine_Brito}
+    \include{articles/entrevista/Luimara_Schmit}
+    \include{articles/entrevista/Luis_Claudio_Resende-Labilidade}
+    \include{articles/entrevista/Mabel_Teles_Ana_Luiza_Rezende}
+    \include{articles/entrevista/Michel_Chad}
+    \include{articles/entrevista/Paula_Gabriela}
+    \include{articles/entrevista/Pedro_Borges}
+    \include{articles/entrevista/Ricardo_Rezende_Autoidentificacao}
+    \include{articles/entrevista/Ricardo_Rezende_Ortoprincipios}
+    \include{articles/entrevista/Roberta_Bouchardet}
+    \include{articles/entrevista/Victor_Bolfe}
+    \include{articles/entrevista/Virginia}
+    
+    \genre{}
+    \title {Balanço}
+    \author{}
+    \makecovertitle{articles/fundo-generico.png}{}
+
+    \include{articles/balanco/balanco}
 
 
     %\include{articles/hello-world/article}
     %\include{articles/pun-detector/pun-detector}
     %\include{articles/capitalism/article}
     %\include{articles/feature-story/broccoli}
-
+    
+    \genre {Anuncio}
     \fullpageadvertisement{images/amigos-da-enciclopedia}{10}{10}
 \end{document}

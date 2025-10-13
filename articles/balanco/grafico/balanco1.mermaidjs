@@ -1,0 +1,13 @@
+---
+config:
+  logLevel: debug
+  theme: redux-dark
+---
+timeline
+    section 2004 - 2009
+        2004 : 3 lançamentos
+        2005 : 1 lançamento
+        2006 : 3 lançamentos : 1 reedição
+        2007 : 3 lançamentos : 1 reedição
+        2008 : 1 lançamento : 3 reedições
+        2009 : 2 lançamentos

@@ -231,7 +231,7 @@
     bottom     =\geometrybottom,
     left       =\geometryleft,
     right      =\geometryright
-    %showframe
+    %,showframe % Habilite aqui se quiser ver as margens
 ]{geometry}
 
 
@@ -874,18 +874,23 @@
 % Set the headers. The first argument may either be "" or "title". Using "title"
 % will result in the article title being included in the header.
 \newcommand{\makegesconsheaders}[1][]{
-    % Headers on [E]ven pages are [L]eft-aligned
+    % Headers on [E]ven pages are [L]eft-aligned (esquerda)
     \fancyhead[LE]
     {
         \ifthenelse{\equal{\thegenre}{}}
         {}{
-            \textbf{\thegenre}
+            \textbf{\thepage\ | \thegenre}
             \quad
         }
         \ifstrequal{#1}{title}{
             \leftmark
         }{}
     }
+
+    % No centro
+    % \fancyhead[C]{
+    %     \themagazinename \ Volume \themagazinevolume, \themagazineissue
+    % }
 
     % Headers on [O]dd pages are [R]ight-aligned
     \fancyhead[RO]
@@ -896,7 +901,7 @@
         \ifthenelse{\equal{\thegenre}{}}
         {}{
             \quad%
-            \textbf{\thegenre}%
+            \textbf{\thegenre\ | \thepage}%
         }%
     }
 
@@ -912,15 +917,15 @@
     {
         \vspace{-2pt}
         {
-            \color{\thefootercolor}
-            \small
-            \vspace{-\baselineskip}
-            \raggedright
-            \textbf{\thepage}
-            \quad
-            \themagazinename
-            \quad
-            \textbf{Volume \themagazinevolume, Issue \themagazineissue}
+            % \color{\thefootercolor}
+            % \small
+            % \vspace{-\baselineskip}
+            % \raggedright
+            % \textbf{\thepage}
+            % \quad
+            % \themagazinename
+            % \quad
+            % \textbf{Volume \themagazinevolume, Issue \themagazineissue}
         }
         \ifprint
             \begin{picture}(0, 0)(-257,5){}
@@ -934,15 +939,15 @@
     {
         \vspace{-2pt}
         {
-            \color{\thefootercolor}
-            \small
-            \vspace{-\baselineskip}
-            \raggedleft
-            \textbf{\themagazinetheme}
-            \quad
-            \themagazinename
-            \quad
-            \textbf{\thepage}%
+            % \color{\thefootercolor}
+            % \small
+            % \vspace{-\baselineskip}
+            % \raggedleft
+            % \textbf{\themagazinetheme}
+            % \quad
+            % \themagazinename
+            % \quad
+            % \textbf{\thepage}%
         }
         \ifprint
             \begin{wrapfigure}[0]{l}{0cm}
@@ -963,7 +968,7 @@
     \protect\makegesconsfooters
 
     % This sets the distance between the header and the body text
-    \setlength{\headsep}{3 \baselineskip}
+    \setlength{\headsep}{1 \baselineskip}
 }
 
 
@@ -978,7 +983,7 @@
     \protect\makegesconsfooters
 
     % This sets the distance between the header and the body text
-    \setlength{\headsep}{3 \baselineskip}
+    \setlength{\headsep}{1 \baselineskip}
 
     % This sets the thickness of the line below the header
     \renewcommand{\headrulewidth}{0pt}
