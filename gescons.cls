@@ -491,6 +491,7 @@
     \author    {}
     \date      {\today}
     \genrecolor{black}
+    \authorrole{}
 
     % Using \thisheadercolor and \thisfootercolor won't work here
     \renewcommand{\theheadercolor}{gray}
@@ -634,6 +635,7 @@
 % Variables that can be set for each article
 \newcommand{\thegenre          }{}
 \newcommand{\thetitle          }{}
+\newcommand{\theauthorrole     }{}
 \newcommand{\theshortenedtitle }{} % Not to be directly set by users
 \newcommand{\thesubtitle       }{}
 \newcommand{\theauthor         }{}
@@ -1200,6 +1202,10 @@
     \renewcommand{\thegenre}{#1}
 }
 
+% \theauthorrole
+\newcommand{\authorrole}[1]{
+    \renewcommand{\theauthorrole}{#1}
+}
 
 % \genrecolor and \genrecolour can be used interchangeably to set the color of
 % the article genre (type).
@@ -1615,15 +1621,16 @@
 % Either way, you'll want to use this command AFTER you have defined your title
 % and author (and optionally, your subtitle).
 %
-%  +- Example ---------------------------+
-%  |                                     |
-%  |  \title   {Apple pie is delicious}  |
-%  |  \subtitle{A non-critical essay}    |
-%  |  \author  {Pam Appleseed}           |
-%  |                                     |
-%  |  \maketitle                         |
-%  |                                     |
-%  +-------------------------------------+
+%  +- Example ----------------------------+
+%  |                                      |
+%  |  \title   {Apple pie is delicious}   |
+%  |  \subtitle{A non-critical essay}     |
+%  |  \author  {Pam Appleseed}            |
+%  |  \authorrole {Voluntária da Editares}|
+%  |                                      |
+%  |  \maketitle                          |
+%  |                                      |
+%  +--------------------------------------+
 \renewcommand{\maketitle}{
     \placetitle{\theshortenedtitle}{\thetitle}
     {
@@ -1654,6 +1661,7 @@
         \selectfont
         \vspace{-2\baselineskip}
         {\textcolor{darkbluecmyk}{\scshape \theauthor}}
+        \ifdefempty{\theauthorrole}{}{\\[-0.65ex]{\normalfont\small (\theauthorrole)}}
 
         \vspace{1.5\baselineskip}
     }
