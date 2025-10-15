@@ -342,6 +342,8 @@
     upquote,
   % Smart spaces (but still not self-aware)
     xspace,
+  % String manipulations
+    xstring,
   % For inserting full-page images
     wallpaper,
   % For inserting floating images
@@ -494,6 +496,7 @@
     \date      {\today}
     \genrecolor{black}
     \authorrole{}
+    \paginaurl{}
 
     % Using \thisheadercolor and \thisfootercolor won't work here
     \renewcommand{\theheadercolor}{gray}
@@ -638,6 +641,7 @@
 \newcommand{\thegenre          }{}
 \newcommand{\thetitle          }{}
 \newcommand{\theauthorrole     }{}
+\newcommand{\thepaginaurl     }{}
 \newcommand{\theshortenedtitle }{} % Not to be directly set by users
 \newcommand{\thesubtitle       }{}
 \newcommand{\theauthor         }{}
@@ -1192,6 +1196,10 @@
 \let\placeholderpage\fakepage
 
 
+\newcommand{\smarturl}[1]{%
+  \StrBehind{#1}{://}[\domain]%
+  \href{#1}{\nolinkurl{\domain}}%
+}
 
 
 %    A r t i c l e   b u i l d i n g   b l o c k s
@@ -1209,6 +1217,10 @@
     \renewcommand{\theauthorrole}{#1}
 }
 
+% \thepaginaurl
+\newcommand{\paginaurl}[1]{
+    \renewcommand{\thepaginaurl}{#1}
+}
 % \genrecolor and \genrecolour can be used interchangeably to set the color of
 % the article genre (type).
 \newcommand{\genrecolor}[1]{
@@ -1623,16 +1635,17 @@
 % Either way, you'll want to use this command AFTER you have defined your title
 % and author (and optionally, your subtitle).
 %
-%  +- Example ----------------------------+
-%  |                                      |
-%  |  \title   {Apple pie is delicious}   |
-%  |  \subtitle{A non-critical essay}     |
-%  |  \author  {Pam Appleseed}            |
-%  |  \authorrole {Voluntária da Editares}|
-%  |                                      |
-%  |  \maketitle                          |
-%  |                                      |
-%  +--------------------------------------+
+%  +- Example -----------------------------+
+%  |                                       |
+%  |  \title   {Apple pie is delicious}    |
+%  |  \subtitle{A non-critical essay}      |
+%  |  \author  {Pam Appleseed}             |
+%  |  \authorrole {Voluntária da Editares} |
+%  |  \paginaurl {https://www.example.com}|
+%  |                                       |
+%  |  \maketitle                           |
+%  |                                       |
+%  +---------------------------------------+
 \renewcommand{\maketitle}{
     \placetitle{\theshortenedtitle}{\thetitle}
     {
@@ -1662,7 +1675,7 @@
         \Large
         \selectfont
         \vspace{-2\baselineskip}
-        {\textcolor{darkbluecmyk}{\scshape \theauthor}}
+        {\textcolor{darkbluecmyk}{\scshape \theauthor\ifdefempty{\thepaginaurl}{}{ --- {\normalfont \smarturl{\thepaginaurl}}}}}
         \ifdefempty{\theauthorrole}{}{\\[-0.65ex]{\normalfont\small (\theauthorrole)}}
 
         \vspace{1.5\baselineskip}
