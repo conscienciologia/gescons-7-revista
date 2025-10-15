@@ -348,10 +348,10 @@ RESUMO DO BIÊNIO
 | **Retomada de Tarefa: Reencontro com o Paradever Intermissivo**                     | **Ana Mazzonetto**                  | 19/07/2025     |
 | **Autoinversão Existencial: Compreensão e Vivência**                                | **Paula Gabriella Barbosa**         | 26/07/2025     |
 | **Estado Vibracional: 100 Perguntas e Respostas**                                   | **Victor Bolfe**                    | 02/08/2025     |
-| **Migrações Proexológicas Internacionais**                                          | **Virgínia Ruiz**                   | 30/08/2025     |
+| **Migrações Proexológicas Internacionais**                                          | **Virginia Ruiz**                   | 30/08/2025     |
 | **Autoconscientização Grafopensênica**                                              | **Denise Paro**                     | 07/09/2025     |
 | **Tanatofobia: da Ressignificação da Existência à Superação do Medo da Morte**      | **Walderley Carvalho**              | 14/09/2025     |
-| **Diário de um Iniciante na Tenepes**                                               | **Ghunter Kismann**                 | 20/09/2025     |
+| **Diário de um Iniciante na Tenepes**                                               | **Ghunter Kissmann**                | 20/09/2025     |
 | **Imobilidade Física Vígil: Autopesquisa Experimentológica**                        | **Fátima Fernandes**                | 27/09/2025     |
 | **Seleção Consciencial**                                                            | **Roberto Kunz**                    | 04/10/2025     |
 | **Libertações Evolutivas: Trajetória Semperaprendente Sob Olhar Conscienciológico** | **Helena Araújo**                   | 11/10/2025     |

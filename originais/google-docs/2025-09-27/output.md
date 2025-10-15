@@ -367,13 +367,13 @@ RESUMO DO BIÊNIO
 
 **Estado Vibracional: 100 Perguntas e Respostas** **Victor Bolfe** 02/08/2025
 
-**Migrações Proexológicas Internacionais** **Virgínia Ruiz** 30/08/2025
+**Migrações Proexológicas Internacionais** **Virginia Ruiz** 30/08/2025
 
 **Autoconscientização Grafopensênica** **Denise Paro** 07/09/2025
 
 **Tanatofobia: da Ressignificação da Existência à Superação do Medo da Morte** **Walderley Carvalho** 14/09/2025
 
-**Diário de um Iniciante na Tenepes** **Ghunter Kismann** 20/09/2025
+**Diário de um Iniciante na Tenepes** **Ghunter Kissmann** 20/09/2025
 
 **Imobilidade Física Vígil: Autopesquisa Experimentológica** **Fátima Fernandes** 27/09/2025
 
