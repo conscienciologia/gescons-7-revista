@@ -15,24 +15,25 @@
 %\emergencystretch=2em               % evita overfull hbox
 
 \begin{document}
-    % \frontpage{images/capa}{15}{15}
+    \frontpage{capa/capa}{15}{15}
     %\% frontpage{images/capa.pdf}{15}{15}
     %\frontpage{images/capa.pdf}{0}{0}
 
-    \tableofcontents
 
-    \genre{}
-    \title {EDITORIAL}
-    \author{}
-    \authorrole{}
-    \makecovertitle{articles/fundo-generico.png}{}
+    %\include{articles/capa/capa}
+
     \include{articles/editorial/editorial}
+
+    \genre{Sumário}
+    \title {Sumário}
+    \tableofcontents
+    \clearpage % força nova página
     
     \genre{}
     \title {RESUMO DO BIÊNIO}
     \author{}
     \authorrole{}
-    \makecovertitle{articles/fundo-generico.png}{}
+    \makecovertitle{articles/capa_resumo.png}{}
 
     \include{articles/resumo/gestao}
     \include{articles/resumo/celebracao-20anos}
@@ -42,6 +43,13 @@
     \include{articles/resumo/fluxo-editorial}
     \include{articles/resumo/numeros}
     \include{articles/resumo/voluntarios-faz-acontecer}
+
+    \genre{}
+    \title {ATUALIZAÇÕES}
+    \author{}
+    \authorrole{}
+    \makecovertitle{articles/capa_atualizacoes.png}{}
+
     \include{articles/atualizacoes/nova-escola-editores}
     \include{articles/atualizacoes/projetos-digitais}
     \include{articles/atualizacoes/revista-cientifica}
@@ -50,7 +58,7 @@
     \title {PARCERIAS}
     \author{}
     \authorrole{}
-    \makecovertitle{articles/parceria/capa-parceria.png}{}
+    \makecovertitle{articles/capa_parcerias.png}{}
     
     \include{articles/parceria/editares-iipc}
     \include{articles/parceria/parceria-uniescon}
@@ -60,24 +68,33 @@
     \title {ENTREVISTAS COM OS AUTORES}
     \author{}
     \authorrole{}
-    \makecovertitle{articles/entrevista/fundo-entrevistas.png}{}
+    \makecovertitle{articles/capa_entrevistas.png}{}
 
+    \include{articles/entrevista/Isabela_Collares}                    % A Lógica do Pensene
     \include{articles/entrevista/Daniel_Mamede}                       % Ações Antifanatismo
+    \include{articles/entrevista/Denise_Paro}                         % Autoconscientização Grafopensênica
     \include{articles/entrevista/Alexandre}                           % Autoexperimentação Conscienciológica
     \include{articles/entrevista/Ricardo_Rezende_Autoidentificacao}   % Autoidentificação Proexológica
     \include{articles/entrevista/Paula_Gabriela}                      % Autoinversão Existencial
+    \include{articles/entrevista/Haydee_Melo}                         % Autolegado Evolutivo
+    \include{articles/entrevista/Felipe_Oliveira}                     % Coadjuvantes da Invéxis
     \include{articles/entrevista/Luis_Claudio_Resende-Labilidade}     % Da Labilidade Parapsíquica
+    \include{articles/entrevista/Gunther_Kissmann}                    % Diário de um Iniciante na Tenepes
     \include{articles/entrevista/Mabel_Teles_Ana_Luiza_Rezende}       % Epicentrismo Consciencial
     \include{articles/entrevista/Victor_Bolfe}                        % Estado Vibracional
     \include{articles/entrevista/Pedro_Borges}                        % Etiologia
     \include{articles/entrevista/Karine_Brito}                        % Gratidão
+    \include{articles/entrevista/Fatima_Fernandes}                    % Imobilidade Física Vígil: Autopesquisa Experimentológica
     \include{articles/entrevista/Roberta_Bouchardet}                  % Interassistência
+    \include{articles/entrevista/Helena_Araujo}                       % Libertações Evolutivas: Trajetórias Semperaprendente sob Olhar Conscienciológico
     \include{articles/entrevista/Michel_Chad}                         % Megapensenes Trivocabulares
     \include{articles/entrevista/Virginia}                            % Migrações Proexológicas
     \include{articles/entrevista/Luimara_Schmit}                      % Mutatis Mutandis
     \include{articles/entrevista/Cristina_Bassanesi}                  % O Calidoscópio da Evolução
     \include{articles/entrevista/Ricardo_Rezende_Ortoprincipios}      % Ortoprincípios Norteadores
     \include{articles/entrevista/Ana_Mazzonetto}                      % Retomada de Tarefa
+    \include{articles/entrevista/Wanderley_Carvalho}                  % Tanatofobia: da Ressignificação da Existência à Superação do Medo da Morte
+    \include{articles/entrevista/glossario_japones}                   % The English-Japanese Mini-Glossary of Conscientiology Terms
     
     % \genre{}
     % \title {BALANÇO}
@@ -87,11 +104,11 @@
     \include{articles/balanco/balanco}
 
 
-    %\include{articles/hello-world/article}
-    %\include{articles/pun-detector/pun-detector}
-    %\include{articles/capitalism/article}
-    %\include{articles/feature-story/broccoli}
-    
+%    %\include{articles/hello-world/article}
+%    %\include{articles/pun-detector/pun-detector}
+%    %\include{articles/capitalism/article}
+%    %\include{articles/feature-story/broccoli}
+%    
     %\genre {Anúncio}
     %\fullpageadvertisement{images/amigos-da-enciclopedia}{10}{10}
 \end{document}

@@ -1,0 +1,70 @@
+% How to create a beautiful cover page in LaTeX using TikZ
+% Latexdraw.com
+% 14:15, 03:03:2020 
+
+\documentclass[a4paper]{article}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{anyfontsize}
+\usepackage{sectsty}
+\usepackage[a4paper,margin=0cm]{geometry}
+
+
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{tikzpicture}[overlay,remember picture]
+
+% Background color
+\fill[
+black!2]
+(current page.south west) rectangle (current page.north east);
+
+% Edição e Ano
+\draw[ultra thick,gray]
+($(current page.north)+(5,2)$) -- ++(0,-9cm) 
+node[
+midway,
+left=0.25cm,
+text width=5cm,
+align=right,
+black!75
+]
+{
+{\fontsize{25}{30} \selectfont \bf Número 7 \\[10pt] Dezembro}
+} 
+node[
+midway,
+right=0.25cm,
+text width=6cm,
+align=left,
+RoyalBlue]
+{
+{\fontsize{72}{86.4} \selectfont 2025}
+};
+
+% Title
+\node[align=center] at ($(current page.center)+(0,0)$) 
+{
+{\fontsize{60}{72} \selectfont {{GESCONS}}} \\[1cm]
+{\fontsize{16}{19.2} \selectfont \textcolor{RoyalBlue}{ \bf REVISTA DA ASSOCIAÇÃO INTERNACIONAL EDITARES}}\\[3pt] \\[1cm]
+
+};
+
+
+\node at ($(current page.south)+(0,3cm)$) {\includegraphics[width=3cm]{Logo-Editares-com-Marca-Registrada.png}};
+
+
+% % Title
+% \node[align=center] at ($(current page.south)+(0,2cm)$) 
+% {
+% {\fontsize{20}{24} \selectfont \textcolor{RoyalBlue}{ \bf Editares 21 anos}}\\[3pt]
+% };
+
+
+\end{tikzpicture}
+
+\end{document}

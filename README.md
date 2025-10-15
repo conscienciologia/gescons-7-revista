@@ -2,7 +2,7 @@ Como gerar o PDF da revista
 
 clean
 
-> latexmk -c  main.tex
+> latexmk -c main.tex
 
 build:
 
@@ -10,5 +10,4 @@ build:
 
 Ou:
 
-
->  latexmk -c  main.tex & latexmk -f -pdf -shell-escape -file-line-error -interaction=nonstopmode main.tex
+> latexmk -c main.tex & latexmk -f -pdf -shell-escape -file-line-error -interaction=nonstopmode main.tex
