@@ -314,6 +314,8 @@
     lipsum,
   % Handy for code
     listings,
+  % Tipografia fina (já deve estar): melhora muito a justificação. Evitar Linhas frouxas.
+    microtype,
   % Support for multi-column articles.
     multicol,
   % We don't want no \noindent
@@ -359,6 +361,22 @@
 ]{hyperref}
 
 \RequirePackage[defaultlines=4,all]{nowidow}
+
+
+% Configuração para evitar linhas frouxas
+% Bloco recomendado (cole no preâmbulo)
+% Tipografia fina (já deve estar): melhora muito a justificação
+\microtypesetup{protrusion=true,expansion=true}
+
+% Limites globais de justificação
+\pretolerance=100      % fase "pré" (sem hifenização); 100–150 é razoável
+\tolerance=1800        % fase principal; 1000–2000 é um bom alvo editorial
+\emergencystretch=2em  % "folga de emergência" p/ evitar linhas frouxas
+\multicoltolerance=9999 % tolerância máxima em multicols (evita overfull hbox)
+
+% Ruído do log (não muda o layout, só o que o TeX reporta)
+\hbadness=1000         % ignora avisos leves (< 1000)
+\hfuzz=0.2pt           % ignora overfull minúsculo (até 0.2pt)
 
 
 
