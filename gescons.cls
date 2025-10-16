@@ -1314,6 +1314,7 @@
 
 % This is for a pullquote. I don't know what else you could be expecting.
 \newenvironment{pullquote}{
+    \vspace{0.5\baselineskip} % espaço ANTES do pullquote
     \begin{leftbar}
     \noindent
     \raggedright

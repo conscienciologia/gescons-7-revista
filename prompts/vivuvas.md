@@ -72,4 +72,5 @@ Se quiser, posso te mostrar um **script (regex)** para aplicar automaticamente e
 
 # Solução no VSCODE
 
-(\s)([aAàeéÉEoO])\s
+(\s+|~)([aAoOsSeéÉEàÀ],?)\s+
+$1$2~
