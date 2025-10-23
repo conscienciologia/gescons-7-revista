@@ -29,7 +29,11 @@
 *.nlo
 *.nls
 *.out
-*.pdf
+wip.pdf
+main.pdf
+gescons_7.pdf
+impressao-gescons7.pdf
+outputs
 *.pyg
 *.run.xml
 *.snm
