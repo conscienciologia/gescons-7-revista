@@ -79,7 +79,7 @@
 %
 %  +- Example 2 (stupid example) ----------+
 %  |                                       |    This is a stupid example,
-%  |  \LoadClass[print]{gescons}      |    because this should be left to
+%  |  \LoadClass[print]{gescons}           |    because this should be left to
 %  |                                       |    whoever compiles the document.
 %  +---------------------------------------+
 
@@ -318,6 +318,8 @@
     microtype,
   % Support for multi-column articles.
     multicol,
+  % reserva espaço para evitar separação
+    needspace,
   % We don't want no \noindent
     parskip,
   % For including full-page centered PDFs and raster images
@@ -377,6 +379,10 @@
 % Ruído do log (não muda o layout, só o que o TeX reporta)
 \hbadness=1000         % ignora avisos leves (< 1000)
 \hfuzz=0.2pt           % ignora overfull minúsculo (até 0.2pt)
+
+% Especialmente para tabelas
+\renewcommand{\arraystretch}{1.1} % 1.0 é o padrão; 1.1–1.3 é ideal
+\setlength{\extrarowheight}{0.5pt}  % opcional: colchão adicional mínimo
 
 
 

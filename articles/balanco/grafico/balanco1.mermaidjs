@@ -1,7 +1,7 @@
 ---
 config:
   logLevel: debug
-  theme: redux-dark
+  theme: redux
 ---
 timeline
     section 2004 - 2009

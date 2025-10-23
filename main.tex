@@ -1,5 +1,5 @@
 % \documentclass[print]{gescons} % Quando for enviar para a gráfica
-\documentclass[a4paper]{gescons}
+\documentclass[a4paper,print]{gescons}
 
 \magazinename  {GENSCONS}
 \magazinetheme {GENSCONS}
@@ -18,11 +18,6 @@
 % latexmk -c main.tex & latexmk -f -pdf -shell-escape -file-line-error -interaction=nonstopmode main.tex
 \begin{document}
     \frontpage{capa/capa}{15}{15}
-    %\% frontpage{images/capa.pdf}{15}{15}
-    %\frontpage{images/capa.pdf}{0}{0}
-
-
-    %\include{articles/capa/capa}
 
     \include{articles/editorial/editorial}
 

@@ -1,0 +1,46 @@
+\documentclass[a4paper,12pt]{article}
+
+% --- Pacote PDF/X (gera PDF/X-1a:2001 com perfil CMYK) ---
+\usepackage[a-1b]{pdfx}
+\usepackage[x-1a,iccprofile=PSOcoated_v3.icc]{pdfx}
+
+
+% --- Metadados obrigatórios do PDF/X ---
+\begin{filecontents*}{\jobname.xmpdata}
+\Title{Exemplo PDF/X em CMYK}
+\Author{Eduardo Santana}
+\Creator{LaTeX + pdfx}
+\Publisher{Editares}
+\Copyright{(c) 2025}
+\Keywords{CMYK, PDF/X, impressão, LaTeX}
+\end{filecontents*}
+
+% --- Configuração de cores ---
+\usepackage[dvipsnames]{xcolor}
+
+% Define cores em CMYK (exemplo)
+\definecolor{meuazul}{cmyk}{1,0.5,0,0}   % Azul em CMYK
+\definecolor{meuvermelho}{cmyk}{0,1,1,0} % Vermelho em CMYK
+\definecolor{meupreto}{cmyk}{0,0,0,1}    % Preto puro
+
+\begin{document}
+
+\section*{PDF em CMYK com perfil ICC embutido}
+
+Este PDF foi gerado usando o pacote \texttt{pdfx}, que cria um arquivo
+compatível com o padrão \textbf{PDF/X-1a:2001}, próprio para impressão gráfica.
+
+\vspace{1cm}
+
+\textcolor{meuazul}{\rule{10cm}{1cm}}\\[4pt]
+\textcolor{meuvermelho}{\rule{10cm}{1cm}}\\[4pt]
+\textcolor{meupreto}{\rule{10cm}{1cm}}
+
+\vspace{1cm}
+Verifique no Adobe Acrobat em:
+\begin{quote}
+Ferramentas → Impressão → Visualização de Saída
+\end{quote}
+para confirmar que as cores estão em CMYK.
+
+\end{document}

@@ -1,13 +1,13 @@
 ---
 config:
   logLevel: debug
-  theme: redux-dark
+  theme: redux
 ---
 timeline
     section 2010 - 2016
         2010 : 3 lançamentos : 3 reedições
         2011 : 5 lançamentos : 4 reedições
-        2012 : 3 lançamentos : 1 reimpressão : 1 reedições
+        2012 : 3 lançamentos : 1 reimpressão : 1 reedição
         2013 : 10 lançamentos : 2 reimpressões : 7 reedições
         2014 : 10 lançamentos : 1 reimpressão : 1 reedição
         2015 : 14 lançamentos : 2 reimpressões : 7 reedições : 7 e-books
