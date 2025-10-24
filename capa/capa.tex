@@ -10,6 +10,12 @@
 \usepackage{sectsty}
 \usepackage[a4paper,margin=0cm]{geometry}
 
+\DeclareGraphicsExtensions{.pdf,.jpg,.eps,.png}
+
+\definecolor{darkgreen}{cmyk}{0.8, 0.4, 0.9, 0.2}
+% Method 1: Define a custom CMYK color
+\definecolor{myblue}{cmyk}{0.9,0.6,0.1,0.1}
+
 
 
 \begin{document}
@@ -55,7 +61,7 @@ RoyalBlue]
 };
 
 
-\node at ($(current page.south)+(0,3cm)$) {\includegraphics[width=3cm]{Logo-Editares-com-Marca-Registrada.png}};
+\node at ($(current page.south)+(0,3cm)$) {\includegraphics[width=3cm]{Logo-Editares-com-Marca-Registrada}};
 
 
 % % Title

@@ -242,7 +242,7 @@
 \RequirePackage[
     usenames,
     dvipsnames,
-    svgnames,
+    % svgnames,
     table
 ]{xcolor}
 
@@ -642,7 +642,7 @@
 % This allows us to include graphics without the need to include the file
 % extension. This is useful if you need to convert image files from one format
 % to another (e.g. RGB to CMYK), and want to prioritize JPEGs.
-\DeclareGraphicsExtensions{.jpg,.png,.pdf,.eps}
+\DeclareGraphicsExtensions{.jpg,.pdf,.eps,.png}
 
 
 
