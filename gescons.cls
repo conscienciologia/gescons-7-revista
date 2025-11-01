@@ -123,11 +123,11 @@
 \newcommand{\geometrypaperheight}{297mm}
 \newcommand{\geometrypaperwidth} {210mm}
 \newcommand{\geometrytextheight} {255mm}
-\newcommand{\geometrytextwidth}  {182mm}
+\newcommand{\geometrytextwidth}  {162mm}  % 182 mm − 20 mm = 162 mm
 \newcommand{\geometrytop}        {1.8cm}
 \newcommand{\geometrybottom}     {1.2cm}
-\newcommand{\geometryleft}       {1.4cm}
-\newcommand{\geometryright}      {1.4cm}
+\newcommand{\geometryleft}       {2.4cm}  % +1 cm
+\newcommand{\geometryright}      {2.4cm}  % +1 cm
 
 \newcommand{\croppaperheight}{337mm}
 \newcommand{\croppaperwidth} {242mm}
@@ -1088,10 +1088,10 @@
 % Define how article titles should be displayed in the table of contents
 \titlecontents{chapter}
               [0pt]
-              {\vspace{.6\baselineskip}}
+              {\vspace{.1\baselineskip}}
               {\bfseries\thecontentslabel}
               {}
-              {\hfill\thecontentspage}
+              {\hfill\thecontentspage} %% {\dotfill{}\thecontentspage}
               []
 
 
@@ -1342,7 +1342,7 @@
     \begin{leftbar}
     \noindent
     \raggedright
-    \Large\textbf\bgroup\textit\bgroup
+    \large\textbf\bgroup\textit\bgroup
     \ignorespaces
     \color{\thegenrecolor}
 }{
@@ -1645,8 +1645,9 @@
     \clearpage
     \chapter[#1]{#2}
     \renewcommand{\and}{ /\ }
-    \ifstrempty{\theauthor}{
+    \ifdefempty{\theauthor}{
         \vspace{-\baselineskip}
+        \addtocontents{toc}{\vspace{.1cm}\par}
     }{
         \addtocontents{toc}{{\textit{\small\theauthor}}\vspace{.1cm}\par}
     }
@@ -1697,9 +1698,9 @@
     \placetitle{\theshortenedtitle}{\vspace{-1\baselineskip}\thetitle}
     {
         \raggedright
-        \Large
+        \large
         \selectfont
-        \vspace{-2\baselineskip}
+        \vspace{-2.5\baselineskip}
         {\textcolor{darkbluecmyk}{\scshape \theauthor\ifdefempty{\thepaginaurl}{}{ --- {\normalfont \smarturl{\thepaginaurl}}}}}
         \ifdefempty{\theauthorrole}{}{\\[-0.65ex]{\normalfont\small (\theauthorrole)}}
 

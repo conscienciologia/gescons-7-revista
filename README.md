@@ -21,7 +21,9 @@ Controle de
 
 articles/\*_/_.tex
 
-# CMYK
+# Conversão CMYK
+
+NOTE: Por isso que a revista ficou tão grande em bytes.
 
 https://tex.stackexchange.com/questions/9961/pdf-colour-model-and-latex/9973#9973
 
@@ -62,3 +64,13 @@ convert images/Unicin-Logo-1024x315.png -colorspace CMYK -profile "profiles/Coat
 convert images/Logo-UNIESCON-2048x1741.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" images/Logo-UNIESCON-2048x1741.pdf
 convert images/IIPC_logo.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" images/IIPC_logo.pdf
 convert images/Logo-Editares-com-Marca-Registrada.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" images/Logo-Editares-com-Marca-Registrada.pdf
+
+convert articles/atualizacoes/fotos/materia6/rev_editares_2025.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/atualizacoes/fotos/materia6/revista_editares_2025.pdf
+
+convert articles/entrevista/back/png/Fatima_Fernandes.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/back/Fatima_Fernandes.pdf
+
+convert articles/entrevista/back/png/Haydee_Melo.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/back/Haydee_Melo.pdf
+
+convert articles/entrevista/mockups/png/Mini-Glossary.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/mockups/Mini-Glossary.pdf
+
+convert articles/entrevista/back/png/Luimara_Schmit.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/back/Luimara_Schmit.pdf
