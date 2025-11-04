@@ -39,15 +39,22 @@ Assim o LaTeX trata o `~` como um **espaço normal**, mas **impede a quebra de l
 
 ---
 
-## 🧱 Recurso automático
+## 🧱 Recurso automático de Expressão regular
 
 Não existe um comando nativo que insira automaticamente esses `~`,
 mas alguns editores (como o Overleaf, TeXstudio, VS Code + macros) permitem automatizar via regex.
 
 Por exemplo, uma expressão regular para localizar preposições soltas (em português):
 
+### Solução no VSCODE
+
+(\s+|~)([aAoOsSeéÉEàÀ],?)\s+
+$1$2~
+
+### Solução Genérica
+
 ```
-(\s)([aAoOsSeEàÀ])\s
+(\s)([aAoOsSeéÉEàÀ])\s
 ```
 
 …e substituir por:
@@ -70,7 +77,3 @@ Isso coloca automaticamente o `~` após artigos e preposições curtas.
 
 Se quiser, posso te mostrar um **script (regex)** para aplicar automaticamente esses `~` em todo o texto `.tex` — ideal para revistas ou livros. Deseja isso?
 
-# Solução no VSCODE
-
-(\s+|~)([aAoOsSeéÉEàÀ],?)\s+
-$1$2~

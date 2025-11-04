@@ -71,6 +71,11 @@ convert articles/entrevista/back/png/Fatima_Fernandes.png -colorspace CMYK -prof
 
 convert articles/entrevista/back/png/Haydee_Melo.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/back/Haydee_Melo.pdf
 
+convert articles/entrevista/back/png/Cesar_Machado.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/back/Cesar_Machado.pdf
+
+convert articles/entrevista/mockups/png/Cesar_Machado.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/mockups/Cesar_Machado.pdf
+
+
 convert articles/entrevista/mockups/png/Mini-Glossary.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/mockups/Mini-Glossary.pdf
 
 convert articles/entrevista/back/png/Luimara_Schmit.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/back/Luimara_Schmit.pdf
