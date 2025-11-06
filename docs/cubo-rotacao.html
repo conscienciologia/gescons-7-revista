@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cubo girando – teste mínimo Three.js</title>
+  <style>
+    html,body { height:100%; margin:0; background:#111; color:#eee; font-family:system-ui,Segoe UI,Roboto,Arial; }
+    #app { position:fixed; inset:0; }
+    #msg { position:fixed; left:12px; bottom:12px; background:rgba(0,0,0,.5); padding:8px 10px; border-radius:8px; font-size:12px; }
+    canvas { display:block; }
+  </style>
+  <!-- Three.js (global THREE namespace) -->
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="msg">Se você vê um cubo colorido girando, está OK ✅</div>
+  <script>
+    // Verificações rápidas
+    if (!window.THREE) {
+      document.body.innerHTML = "<pre style='padding:16px'>Falha ao carregar Three.js. Verifique sua rede/CDN.</pre>";
+    }
+
+    const container = document.getElementById('app');
+    const renderer = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio||1, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setAnimationLoop(animate);
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x111111);
+
+    const camera = new THREE.PerspectiveCamera(60, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(2.8, 2.2, 3.2);
+    camera.lookAt(0,0,0);
+
+    // Luz
+    const hemi = new THREE.HemisphereLight(0xffffff, 0x222222, 0.9);
+    scene.add(hemi);
+    const dir = new THREE.DirectionalLight(0xffffff, 1.0);
+    dir.position.set(3,4,5);
+    scene.add(dir);
+
+    // Cubo com cores diferentes em cada face
+    const size = 1.5;
+    const geo = new THREE.BoxGeometry(size, size, size);
+    const faceColors = [0xFF5252,0xFFEA00,0x69F0AE,0x40C4FF,0xFFAB40,0xB388FF];
+    const mats = faceColors.map(c => new THREE.MeshStandardMaterial({ color:c, roughness:.5, metalness:.1 }));
+    const cube = new THREE.Mesh(geo, mats);
+    scene.add(cube);
+
+    // Plano/grade opcional (referência)
+    const grid = new THREE.GridHelper(10,10,0x333333,0x222222);
+    grid.position.y = -1.2;
+    scene.add(grid);
+
+    // Responsivo
+    window.addEventListener('resize', () => {
+      const w = window.innerWidth, h = window.innerHeight;
+      renderer.setSize(w,h);
+      camera.aspect = w/h; camera.updateProjectionMatrix();
+    });
+
+    // Animação
+    function animate(time) {
+      const t = time * 0.001; // ms -> s
+      cube.rotation.x = t * 0.6;
+      cube.rotation.y = t * 0.9;
+      renderer.render(scene, camera);
+    }
+  </script>
+</body>
+</html>

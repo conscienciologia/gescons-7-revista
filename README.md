@@ -43,7 +43,7 @@ convert articles/capa_atualizacoes.png -colorspace CMYK -profile "profiles/Coate
 convert articles/capa_entrevistas.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/capa_entrevistas.jpg
 convert articles/capa_parcerias.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/capa_parcerias.jpg
 convert articles/capa_resumo.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/capa_resumo.jpg
-convert articles/balanco/grafico/grafico.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/balanco/grafico/grafico.jpg
+convert articles/balanco/grafico/png/grafico.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/balanco/grafico/grafico.pdf
 convert capa/capa.pdf -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" capa/capa.jpg
 
 images/AIEC-Logo-1024x364.png images/AIEC-Logo-1024x364.png
@@ -64,6 +64,7 @@ convert images/Unicin-Logo-1024x315.png -colorspace CMYK -profile "profiles/Coat
 convert images/Logo-UNIESCON-2048x1741.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" images/Logo-UNIESCON-2048x1741.pdf
 convert images/IIPC_logo.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" images/IIPC_logo.pdf
 convert images/Logo-Editares-com-Marca-Registrada.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" images/Logo-Editares-com-Marca-Registrada.pdf
+convert images/UNIESCON-2048x1741.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" images/UNIESCON-2048x1741.pdf
 
 convert articles/atualizacoes/fotos/materia6/rev_editares_2025.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/atualizacoes/fotos/materia6/revista_editares_2025.pdf
 
@@ -75,7 +76,12 @@ convert articles/entrevista/back/png/Cesar_Machado.png -colorspace CMYK -profile
 
 convert articles/entrevista/mockups/png/Cesar_Machado.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/mockups/Cesar_Machado.pdf
 
-
 convert articles/entrevista/mockups/png/Mini-Glossary.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/mockups/Mini-Glossary.pdf
 
 convert articles/entrevista/back/png/Luimara_Schmit.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/back/Luimara_Schmit.pdf
+
+convert articles/entrevista/mockups/png/Michel-Chad.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/mockups/Michel-Chad.pdf
+
+convert articles/entrevista/mockups/png/Roberto_Kunz.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/mockups/Roberto_Kunz.pdf
+
+convert articles/entrevista/mockups/png/Pedro_Borges.png -colorspace CMYK -profile "profiles/Coated_Fogra39L_VIGC_300.icc" articles/entrevista/mockups/Pedro_Borges.pdf

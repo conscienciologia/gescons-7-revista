@@ -3,147 +3,147 @@
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 
 <body style="margin:0;background:transparent;">
-<svg id="chart" width="960" height="900"></svg>
+  <svg id="chart" width="960" height="900"></svg>
 
-<script>
-// ===== CONFIG =====
-const colors = {
-  reimpressoes: "#C8E6C9", // verde claro
-  reedicoes:    "#F8BBD0", // rosa claro
-  lancamentos:  "#FFF4B2", // amarelo claro
-  ebooks:       "#B9E3FF"  // azul claro
-};
-const labels = {
-  reimpressoes: "Reimpressões",
-  reedicoes: "Reedições",
-  lancamentos: "Lançamentos",
-  ebooks: "E-books"
-};
-const keys = ["reimpressoes", "reedicoes", "lancamentos", "ebooks"];
+  <script>
+    // ===== CONFIG =====
+    const colors = {
+      reimpressoes: "#C8E6C9", // verde claro
+      reedicoes: "#F8BBD0", // rosa claro
+      lancamentos: "#FFF4B2", // amarelo claro
+      ebooks: "#B9E3FF"  // azul claro
+    };
+    const labels = {
+      reimpressoes: "Reimpressões",
+      reedicoes: "Reedições",
+      lancamentos: "Lançamentos",
+      ebooks: "E-books"
+    };
+    const keys = ["reimpressoes", "reedicoes", "lancamentos", "ebooks"];
 
-// ===== DADOS =====
-const raw = [
-  {ano:2004, lancamentos:3,  reimpressoes:0, reedicoes:0, ebooks:0},
-  {ano:2005, lancamentos:1,  reimpressoes:0, reedicoes:0, ebooks:0},
-  {ano:2006, lancamentos:3,  reimpressoes:0, reedicoes:1, ebooks:0},
-  {ano:2007, lancamentos:3,  reimpressoes:0, reedicoes:1, ebooks:0},
-  {ano:2008, lancamentos:1,  reimpressoes:0, reedicoes:3, ebooks:0},
-  {ano:2009, lancamentos:2,  reimpressoes:0, reedicoes:0, ebooks:0},
-  {ano:2010, lancamentos:3,  reimpressoes:0, reedicoes:3, ebooks:0},
-  {ano:2011, lancamentos:5,  reimpressoes:0, reedicoes:4, ebooks:0},
-  {ano:2012, lancamentos:3,  reimpressoes:1, reedicoes:1, ebooks:0},
-  {ano:2013, lancamentos:10, reimpressoes:2, reedicoes:7, ebooks:0},
-  {ano:2014, lancamentos:10, reimpressoes:1, reedicoes:1, ebooks:0},
-  {ano:2015, lancamentos:14, reimpressoes:2, reedicoes:7, ebooks:7},
-  {ano:2016, lancamentos:10, reimpressoes:0, reedicoes:1, ebooks:10},
-  {ano:2017, lancamentos:13, reimpressoes:0, reedicoes:5, ebooks:9},
-  {ano:2018, lancamentos:14, reimpressoes:11, reedicoes:0, ebooks:1},
-  {ano:2019, lancamentos:16, reimpressoes:15, reedicoes:0, ebooks:4},
-  {ano:2020, lancamentos:21, reimpressoes:5,  reedicoes:0, ebooks:8},
-  {ano:2021, lancamentos:29, reimpressoes:28, reedicoes:0, ebooks:1},
-  {ano:2022, lancamentos:9, reimpressoes:10, reedicoes:1, ebooks:0},
-  {ano:2023, lancamentos:10, reimpressoes:16, reedicoes:0, ebooks:3},
-  {ano:2024, lancamentos:9,  reimpressoes:21, reedicoes:4, ebooks:5},
-  {ano:2025, lancamentos:17, reimpressoes:23, reedicoes:5, ebooks:5},
-];
+    // ===== DADOS =====
+    const raw = [
+      { ano: 2004, lancamentos: 3, reimpressoes: 0, reedicoes: 0, ebooks: 0 },
+      { ano: 2005, lancamentos: 1, reimpressoes: 0, reedicoes: 0, ebooks: 0 },
+      { ano: 2006, lancamentos: 3, reimpressoes: 0, reedicoes: 1, ebooks: 0 },
+      { ano: 2007, lancamentos: 3, reimpressoes: 0, reedicoes: 1, ebooks: 0 },
+      { ano: 2008, lancamentos: 1, reimpressoes: 0, reedicoes: 3, ebooks: 0 },
+      { ano: 2009, lancamentos: 2, reimpressoes: 0, reedicoes: 0, ebooks: 0 },
+      { ano: 2010, lancamentos: 3, reimpressoes: 0, reedicoes: 3, ebooks: 0 },
+      { ano: 2011, lancamentos: 5, reimpressoes: 0, reedicoes: 4, ebooks: 0 },
+      { ano: 2012, lancamentos: 3, reimpressoes: 1, reedicoes: 1, ebooks: 0 },
+      { ano: 2013, lancamentos: 10, reimpressoes: 2, reedicoes: 7, ebooks: 0 },
+      { ano: 2014, lancamentos: 10, reimpressoes: 1, reedicoes: 1, ebooks: 0 },
+      { ano: 2015, lancamentos: 14, reimpressoes: 2, reedicoes: 7, ebooks: 7 },
+      { ano: 2016, lancamentos: 10, reimpressoes: 0, reedicoes: 1, ebooks: 10 },
+      { ano: 2017, lancamentos: 13, reimpressoes: 0, reedicoes: 5, ebooks: 9 },
+      { ano: 2018, lancamentos: 14, reimpressoes: 11, reedicoes: 0, ebooks: 1 },
+      { ano: 2019, lancamentos: 16, reimpressoes: 15, reedicoes: 0, ebooks: 4 },
+      { ano: 2020, lancamentos: 21, reimpressoes: 5, reedicoes: 0, ebooks: 8 },
+      { ano: 2021, lancamentos: 29, reimpressoes: 28, reedicoes: 0, ebooks: 1 },
+      { ano: 2022, lancamentos: 9, reimpressoes: 10, reedicoes: 1, ebooks: 0 },
+      { ano: 2023, lancamentos: 10, reimpressoes: 16, reedicoes: 0, ebooks: 3 },
+      { ano: 2024, lancamentos: 9, reimpressoes: 21, reedicoes: 4, ebooks: 5 },
+      { ano: 2025, lancamentos: 17, reimpressoes: 27, reedicoes: 9, ebooks: 5 },
+    ];
 
-// ===== SETUP =====
-const svg   = d3.select("#chart");
-const W     = +svg.attr("width");
-const H     = +svg.attr("height");
-const m     = {top: 30, right: 60, bottom: 100, left: 90}; // mais espaço à esquerda e embaixo
-const width = W - m.left - m.right;
-const height= H - m.top - m.bottom;
+    // ===== SETUP =====
+    const svg = d3.select("#chart");
+    const W = +svg.attr("width");
+    const H = +svg.attr("height");
+    const m = { top: 30, right: 60, bottom: 100, left: 90 }; // mais espaço à esquerda e embaixo
+    const width = W - m.left - m.right;
+    const height = H - m.top - m.bottom;
 
-const g = svg.append("g").attr("transform", `translate(${m.left},${m.top})`);
+    const g = svg.append("g").attr("transform", `translate(${m.left},${m.top})`);
 
-// anos em ordem crescente (em cima → embaixo)
-const years = raw.map(d => d.ano).sort(d3.ascending);
+    // anos em ordem crescente (em cima → embaixo)
+    const years = raw.map(d => d.ano).sort(d3.ascending);
 
-// escalas
-const y = d3.scaleBand()
-  .domain(years)
-  .range([0, height])
-  .paddingInner(0.25);
+    // escalas
+    const y = d3.scaleBand()
+      .domain(years)
+      .range([0, height])
+      .paddingInner(0.25);
 
-const totals = raw.map(d => keys.reduce((s,k)=>s + (d[k]||0), 0));
-const x = d3.scaleLinear()
-  .domain([0, d3.max(totals)]).nice()
-  .range([0, width]);
+    const totals = raw.map(d => keys.reduce((s, k) => s + (d[k] || 0), 0));
+    const x = d3.scaleLinear()
+      .domain([0, d3.max(totals)]).nice()
+      .range([0, width]);
 
-// eixo X
-g.append("g")
-  .attr("transform", `translate(0,${height})`)
-  .call(d3.axisBottom(x).ticks(10))
-  .call(g => g.select(".domain").attr("stroke","#555"))
-  .call(g => g.selectAll("line").attr("stroke","#aaa"));
+    // eixo X
+    g.append("g")
+      .attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(x).ticks(10))
+      .call(g => g.select(".domain").attr("stroke", "#555"))
+      .call(g => g.selectAll("line").attr("stroke", "#aaa"));
 
-g.append("text")
-  .attr("x", width)
-  .attr("y", height + 35)
-  .attr("text-anchor", "end")
-  .attr("fill", "#333")
-  .attr("font-size", 12)
-  .text("");
-
-// eixo Y (com espaço extra entre texto e barra)
-const yAxis = g.append("g")
-  .call(d3.axisLeft(y).tickSize(0))
-  .call(g => g.select(".domain").remove())
-  .call(g => g.selectAll("text")
-    .attr("font-size", 12)
-    .attr("dx", "-0.8em")); // empurra mais o texto para a esquerda
-
-// ===== DESENHO =====
-raw.forEach(d => {
-  let acc = 0;
-  const y0 = y(d.ano), h = y.bandwidth();
-  keys.forEach(k => {
-    const v = d[k] || 0;
-    if (v <= 0) return;
-    const x0 = x(acc), x1 = x(acc + v);
-
-    // retângulo
-    g.append("rect")
-      .attr("x", x0).attr("y", y0)
-      .attr("width", x1 - x0).attr("height", h)
-      .attr("fill", colors[k])
-      .attr("stroke", "#666").attr("stroke-width", 0.6);
-
-    // número grande centralizado
     g.append("text")
-      .attr("x", (x0 + x1) / 2)
-      .attr("y", y0 + h / 2)
-      .attr("dy", "0.35em")
-      .attr("text-anchor", "middle")
-      .attr("font-weight", "700")
-      .attr("font-size", 15)
-      .attr("fill", "#000")
-      .text(v);
+      .attr("x", width)
+      .attr("y", height + 35)
+      .attr("text-anchor", "end")
+      .attr("fill", "#333")
+      .attr("font-size", 16)
+      .text("");
 
-    acc += v;
-  });
-});
+    // eixo Y (com espaço extra entre texto e barra)
+    const yAxis = g.append("g")
+      .call(d3.axisLeft(y).tickSize(0))
+      .call(g => g.select(".domain").remove())
+      .call(g => g.selectAll("text")
+        .attr("font-size", 24)
+        .attr("dx", "-0.3em")); // empurra mais o texto para a esquerda
 
-// ===== LEGENDA (embaixo, centralizada) =====
-const legend = svg.append("g")
-  .attr("transform", `translate(${W/2 - 200}, ${H - 40})`)
-  .attr("font-family", "sans-serif");
+    // ===== DESENHO =====
+    raw.forEach(d => {
+      let acc = 0;
+      const y0 = y(d.ano), h = y.bandwidth();
+      keys.forEach(k => {
+        const v = d[k] || 0;
+        if (v <= 0) return;
+        const x0 = x(acc), x1 = x(acc + v);
 
-const items = ["reimpressoes","reedicoes","lancamentos","ebooks"];
-const leg = legend.selectAll("g.item")
-  .data(items)
-  .join("g")
-  .attr("class", "item")
-  .attr("transform", (_, i) => `translate(${i * 120}, 0)`);
+        // retângulo
+        g.append("rect")
+          .attr("x", x0).attr("y", y0)
+          .attr("width", x1 - x0).attr("height", h)
+          .attr("fill", colors[k])
+          .attr("stroke", "#666").attr("stroke-width", 0.6);
 
-leg.append("rect")
-  .attr("width", 16).attr("height", 16)
-  .attr("fill", d => colors[d])
-  .attr("stroke", "#666");
+        // número grande centralizado
+        g.append("text")
+          .attr("x", (x0 + x1) / 2)
+          .attr("y", y0 + h / 2)
+          .attr("dy", "0.35em")
+          .attr("text-anchor", "middle")
+          .attr("font-weight", "700")
+          .attr("font-size", 24)
+          .attr("fill", "#000")
+          .text(v);
 
-leg.append("text")
-  .attr("x", 24).attr("y", 8).attr("dy", "0.35em")
-  .attr("font-size", 14)
-  .text(d => labels[d]);
-</script>
+        acc += v;
+      });
+    });
+
+    // ===== LEGENDA (embaixo, centralizada) =====
+    const legend = svg.append("g")
+      .attr("transform", `translate(${W / 2 - 200}, ${H - 40})`)
+      .attr("font-family", "sans-serif");
+
+    const items = ["reimpressoes", "reedicoes", "lancamentos", "ebooks"];
+    const leg = legend.selectAll("g.item")
+      .data(items)
+      .join("g")
+      .attr("class", "item")
+      .attr("transform", (_, i) => `translate(${i * 160}, 0)`);
+
+    leg.append("rect")
+      .attr("width", 16).attr("height", 16)
+      .attr("fill", d => colors[d])
+      .attr("stroke", "#666");
+
+    leg.append("text")
+      .attr("x", 24).attr("y", 8).attr("dy", "0.35em")
+      .attr("font-size", 16)
+      .text(d => labels[d]);
+  </script>

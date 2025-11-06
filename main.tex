@@ -1,3 +1,4 @@
+% latexmk -c main.tex & latexmk -f -pdf -shell-escape -file-line-error -interaction=nonstopmode main.tex # para compilar
 % \documentclass[print]{gescons} % Quando for enviar para a gráfica
 \documentclass[a4paper,print]{gescons}
 
@@ -14,8 +15,6 @@
 \RequirePackage[brazil]{babel}      % regras de hifenização PT-BR
 %\emergencystretch=2em               % evita overfull hbox
 
-% Para compilar:
-% latexmk -c main.tex & latexmk -f -pdf -shell-escape -file-line-error -interaction=nonstopmode main.tex
 \begin{document}
     \frontpage{capa/capa}{15}{15}
 
@@ -41,6 +40,7 @@
     \include{articles/resumo/certificacao-unicin}
     \include{articles/resumo/japao-europa}
     \include{articles/resumo/fluxo-editorial}
+    \include{articles/resumo/celebracao-21anos}
     \include{articles/resumo/numeros}
     \include{articles/resumo/voluntarios-faz-acontecer}
 

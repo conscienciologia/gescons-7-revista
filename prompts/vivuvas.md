@@ -48,7 +48,7 @@ Por exemplo, uma expressão regular para localizar preposições soltas (em port
 
 ### Solução no VSCODE
 
-(\s+|~)([aAoOsSeéÉEàÀ],?)\s+
+(\s+|~)([\daAoOsSeéÉEàÀ],?)\s+
 $1$2~
 
 ### Solução Genérica
@@ -76,4 +76,3 @@ Isso coloca automaticamente o `~` após artigos e preposições curtas.
 ---
 
 Se quiser, posso te mostrar um **script (regex)** para aplicar automaticamente esses `~` em todo o texto `.tex` — ideal para revistas ou livros. Deseja isso?
-

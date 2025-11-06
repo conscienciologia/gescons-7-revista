@@ -1,3 +1,4 @@
+% latexmk -c capa.tex & latexmk -f -pdf -shell-escape -file-line-error -interaction=nonstopmode capa.tex
 % How to create a beautiful cover page in LaTeX using TikZ
 % Latexdraw.com
 % 14:15, 03:03:2020 
@@ -37,7 +38,8 @@ midway,
 left=0.25cm,
 text width=5cm,
 align=right,
-black!85
+black!85,
+yshift=2cm % ← desloca só o texto para cima
 ]
 {
 {\fontsize{25}{30} \selectfont \bf Número 7 \\[10pt] Dezembro}
@@ -47,7 +49,9 @@ midway,
 right=0.25cm,
 text width=6cm,
 align=left,
-RoyalBlue]
+RoyalBlue,
+yshift=2cm % ← desloca só o texto para cima
+]
 {
 {\fontsize{72}{86.4} \selectfont 2025}
 };

@@ -330,6 +330,7 @@
     scrextend,
   % Fancier captions (don't load this too early)
     caption,
+    ragged2e,
   % A considerably better linespread
     setspace,
   % Subfigures
@@ -375,6 +376,7 @@
 \tolerance=1800        % fase principal; 1000–2000 é um bom alvo editorial
 \emergencystretch=2em  % "folga de emergência" p/ evitar linhas frouxas
 \multicoltolerance=9999 % tolerância máxima em multicols (evita overfull hbox)
+\raggedcolumns % disable balancing columns (não adiciona espaço extra entre as linhas para ficar alinhadas verticalmente)
 
 % Ruído do log (não muda o layout, só o que o TeX reporta)
 \hbadness=1000         % ignora avisos leves (< 1000)
@@ -1078,24 +1080,57 @@
 % Suppress table of contents title and add our own
 \makeatletter
 \renewcommand\tableofcontents{
+  \begingroup              %
+    \hyphenpenalty=10000   % desabilita hifienzação no sumário
+    \exhyphenpenalty=10000 % 
+    % \sloppy                %
+    % \RaggedRight
+    % \RaggedRight
+
+    % \cftchapnumwidth=0pt % removes hanging indentation
+
     \chapter*{\vspace{-.75\baselineskip}\thetableofcontentstitle}
     \vspace{-2\baselineskip}
     \@starttoc{toc}
+
+  \endgroup
+
 }
 \makeatother
 
+\contentsmargin[0pt]{2.5em} % left margin, right column for page numbers
 
+% \contentspage
 % Define how article titles should be displayed in the table of contents
-\titlecontents{chapter}
-              [0pt]
-              {\vspace{.1\baselineskip}}
-              {\bfseries\thecontentslabel}
-              {}
-              {\hfill\thecontentspage} %% {\dotfill{}\thecontentspage}
-              []
+% \titlecontents{chapter}
+            %   [0pt]
+            %   {\vspace{.1\baselineskip}}
+            %   {\bfseries\thecontentslabel}
+            %   {\hspace*{1.3em}}
+            %   {\titlerule*[1pc]{.}\contentspage} %% {\dotfill{}\thecontentspage}
+            %   []
 
+\titlecontents{chapter}[0]
+  {\vspace{.1\baselineskip}\raggedright}
+  {\bfseries\contentslabel{4em}}
+  {}
+  {\titlerule*[1pc]{ }\makebox[2em][r]{\contentspage}}
+  []
 
+% \titlecontents{chapter}
+% [] % ie, 1.5em (chapter) + 2.3em
+% {\vspace{.1\baselineskip}}
+% {\bfseries\contentslabel{6.3em}}
+% {\hspace*{-3.3em}}
+% {\titlerule*[1pc]{.}\contentspage}
 
+% \titlecontents{chapter}
+%   [0pt]
+%   {\vspace{.1\baselineskip}\leftskip=1em \rightskip=1em \relax}
+%   {\bfseries\thecontentslabel}
+%   {}
+%   {\titlerule*[.5pc]{.}\makebox[3em][r]{\contentspage}}
+%   []
 
 %    C a p t i o n s
 %    - - - - - - - -
@@ -1649,7 +1684,7 @@
         \vspace{-\baselineskip}
         \addtocontents{toc}{\vspace{.1cm}\par}
     }{
-        \addtocontents{toc}{{\textit{\small\theauthor}}\vspace{.1cm}\par}
+        \addtocontents{toc}{{\textit{\small\theauthor}}\vspace{.1cm}\par\raggedright}
     }
     \renewcommand{\and}{\unskip, }
 }
