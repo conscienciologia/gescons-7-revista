@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AR do Cubo (ESM + Import Map + Debug)</title>
+  <style>
+    html,body { height:100%; margin:0; font-family:system-ui, Segoe UI, Roboto, Arial; background:#fff; }
+    header { padding:12px 16px; border-bottom:1px solid #eee; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+    header h1 { font-size:16px; margin:0; font-weight:700; }
+    #wrap { display:grid; grid-template-rows:auto 1fr auto; height:calc(100% - 56px); }
+    model-viewer { width:100%; height:100%; --poster-color:#fff; }
+    footer { text-align:center; font-size:12px; color:#666; padding:8px 0; border-top:1px solid #eee; }
+    .btn { appearance:none; border:1px solid #ddd; background:#fafafa; padding:6px 10px; border-radius:10px; cursor:pointer; font-weight:600; }
+    .cta { font-weight:700; }
+    #status { font-size:12px; color:#666; }
+    #log { white-space:pre-wrap; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size:12px; padding:8px; border-top:1px solid #eee; color:#333; background:#fafafa; }
+  </style>
+
+  <!-- Import map para resolver o specifier 'three' usado pelos módulos JSM -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+    }
+  }
+  </script>
+
+  <!-- model-viewer (module) -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer@v4.0.0/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>AR do Cubo (ESM + Import Map)</h1>
+    <span id="status">Preparando…</span>
+    <button id="btnDownload" class="btn" style="margin-left:auto; display:none">Baixar GLB</button>
+  </header>
+
+  <div id="wrap">
+    <model-viewer id="mv"
+      ar ar-modes="webxr scene-viewer quick-look"
+      camera-controls
+      tone-mapping="neutral"
+      shadow-intensity="0.8"
+      exposure="1.0">
+      <button slot="ar-button" class="cta">Ver em AR</button>
+    </model-viewer>
+    <div id="log"></div>
+    <footer>HTTPS é necessário para AR. iOS Quick Look exige .usdz (não incluso neste teste).</footer>
+  </div>
+
+  <script type="module">
+    const logEl = document.getElementById('log');
+    const statusEl = document.getElementById('status');
+    const mv = document.getElementById('mv');
+    const btnDownload = document.getElementById('btnDownload');
+
+    function log(...args){
+      console.log(...args);
+      try { logEl.textContent += args.map(a => (typeof a==='object'? JSON.stringify(a) : String(a))).join(' ') + "\\n"; } catch(e){}
+    }
+
+    log('Iniciando módulo… UA:', navigator.userAgent);
+    log('Import maps suportado?', 'importMap' in HTMLScriptElement.prototype ? 'SIM' : 'NÃO');
+
+    // Importar THREE e GLTFExporter com o import map em vigor
+    try {
+      const THREE = await import('three');
+      log('Three importado com sucesso. Chaves:', Object.keys(THREE).slice(0,8), '…');
+
+      const { GLTFExporter } = await import('https://unpkg.com/three@0.160.0/examples/jsm/exporters/GLTFExporter.js');
+      log('GLTFExporter tipo:', typeof GLTFExporter);
+
+      // Verificação de múltiplas instâncias (heurística)
+      const anotherThree = await import('three');
+      log('Mesma instância de THREE?', THREE === anotherThree ? 'SIM' : 'NÃO');
+
+      // Montar cena
+      const scene = new THREE.Scene();
+      scene.background = new THREE.Color(0xffffff);
+      log('Cena criada.');
+
+      const size = 1.0;
+      const geo = new THREE.BoxGeometry(size, size, size);
+      const faceColors = [0xFF5252,0xFFEA00,0x69F0AE,0x40C4FF,0xFFAB40,0xB388FF];
+      const mats = faceColors.map(c => new THREE.MeshStandardMaterial({ color:c, roughness:.6, metalness:.05 }));
+      const cube = new THREE.Mesh(geo, mats);
+      scene.add(cube);
+      log('Cubo adicionado.');
+
+      const hemi = new THREE.HemisphereLight(0xffffff, 0xdedede, 0.9);
+      const dir  = new THREE.DirectionalLight(0xffffff, 0.8);
+      dir.position.set(3,4,5);
+      scene.add(hemi, dir);
+      log('Luzes adicionadas.');
+
+      // Exportar GLB
+      statusEl.textContent = 'Exportando GLB…';
+      const exporter = new GLTFExporter();
+      log('GLTFExporter instanciado.');
+
+      exporter.parse(scene, (arrayBuffer) => {
+        try {
+          const bytes = arrayBuffer.byteLength || -1;
+          log('Exportação concluída. Bytes:', bytes);
+          const blob = new Blob([arrayBuffer], { type: 'model/gltf-binary' });
+          const url = URL.createObjectURL(blob);
+          log('Blob URL:', url);
+          mv.src = url;
+          statusEl.textContent = 'Modelo pronto. Toque em “Ver em AR”.';
+
+          // Download
+          btnDownload.style.display = 'inline-block';
+          btnDownload.onclick = () => {
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'cubo.glb';
+            a.click();
+          };
+        } catch(e){
+          console.error(e);
+          log('Erro preparando Blob URL:', String(e));
+          statusEl.textContent = 'Falha ao preparar o modelo.';
+        }
+      }, { binary: true });
+
+      // Eventos do model-viewer
+      mv.addEventListener('load', () => log('model-viewer: load (modelo carregado).'));
+      mv.addEventListener('ar-status', (e) => log('model-viewer: ar-status = ' + e.detail.status));
+      mv.addEventListener('error', (e) => log('model-viewer: error = ' + (e.message || JSON.stringify(e))));
+
+    } catch (e) {
+      console.error('Falha de import ou execução:', e);
+      log('Falha de import/exec:', String(e));
+      statusEl.textContent = 'Erro ao carregar módulos. Veja o console/log.';
+      log('Dicas: 1) confira bloqueio a unpkg.com; 2) verifique extensões que injetam three.js; 3) troque CDN para jsDelivr se necessário.');
+    }
+  </script>
+</body>
+</html>
