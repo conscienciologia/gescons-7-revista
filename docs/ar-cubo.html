@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AR do Cubo – teste</title>
+  <style>
+    html,body { height:100%; margin:0; font-family:system-ui, Segoe UI, Roboto, Arial; background:#fff; }
+    header { padding:12px 16px; border-bottom:1px solid #eee; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+    header h1 { font-size:16px; margin:0; font-weight:700; }
+    #wrap { display:grid; grid-template-rows:auto 1fr auto; height:calc(100% - 56px); }
+    model-viewer { width:100%; height:100%; --poster-color:#fff; }
+    footer { text-align:center; font-size:12px; color:#666; padding:8px 0; border-top:1px solid #eee; }
+    .btn { appearance:none; border:1px solid #ddd; background:#fafafa; padding:6px 10px; border-radius:10px; cursor:pointer; font-weight:600; }
+    .cta { font-weight:700; }
+    #status { font-size:12px; color:#666; }
+  </style>
+  <!-- Three.js (global) + GLTFExporter -->
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.160.0/examples/js/exporters/GLTFExporter.js"></script>
+  <!-- model-viewer -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer@v4.0.0/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>AR do Cubo</h1>
+    <span id="status">Gerando modelo...</span>
+    <button id="btnDownload" class="btn" style="margin-left:auto; display:none">Baixar GLB</button>
+  </header>
+  <div id="wrap">
+    <model-viewer id="mv"
+      ar ar-modes="webxr scene-viewer quick-look"
+      camera-controls
+      tone-mapping="neutral"
+      shadow-intensity="0.8"
+      exposure="1.0">
+      <button slot="ar-button" class="cta">Ver em AR</button>
+    </model-viewer>
+    <footer>Compatível com Android (Scene Viewer) e navegadores com WebXR. Para iOS Quick Look, forneça um arquivo USDZ (ios-src).</footer>
+  </div>
+
+  <script>
+  (function(){
+    const statusEl = document.getElementById('status');
+    const mv = document.getElementById('mv');
+    const btnDownload = document.getElementById('btnDownload');
+
+    // 1) Criar uma cena temporária com um cubo colorido
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0xffffff);
+
+    const size = 1.0;
+    const geo = new THREE.BoxGeometry(size, size, size);
+    const faceColors = [0xFF5252,0xFFEA00,0x69F0AE,0x40C4FF,0xFFAB40,0xB388FF];
+    const mats = faceColors.map(c => new THREE.MeshStandardMaterial({ color:c, roughness:.6, metalness:.05 }));
+    const cube = new THREE.Mesh(geo, mats);
+    scene.add(cube);
+
+    // Luzes mínimas
+    const hemi = new THREE.HemisphereLight(0xffffff, 0xdedede, 0.9);
+    scene.add(hemi);
+    const dir = new THREE.DirectionalLight(0xffffff, 0.8);
+    dir.position.set(3,4,5);
+    scene.add(dir);
+
+    // 2) Exportar para GLB (binário) e injetar no model-viewer
+    const exporter = new THREE.GLTFExporter();
+    exporter.parse(scene, (gltf) => {
+      try {
+        const blob = new Blob([gltf], { type: 'model/gltf-binary' });
+        const url = URL.createObjectURL(blob);
+        mv.src = url;                // carrega o cubo no <model-viewer>
+        statusEl.textContent = "Modelo pronto. Toque em “Ver em AR”.";
+        // Link de download
+        btnDownload.style.display = 'inline-block';
+        btnDownload.onclick = () => {
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = 'cubo.glb';
+          a.click();
+        };
+      } catch (e) {
+        console.error(e);
+        statusEl.textContent = "Falha ao preparar o modelo.";
+      }
+    }, { binary: true, onlyVisible: true, trs: false });
+
+  })();
+  </script>
+</body>
+</html>
