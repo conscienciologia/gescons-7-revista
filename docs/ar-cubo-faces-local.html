@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AR – Bloco com 6 fotos (LOCAL-FRIENDLY, r159)</title>
+  <style>
+    html,body { margin:0; height:100%; }
+    body { font-family:system-ui, Segoe UI, Roboto, Arial; background:#f7f7f7; }
+    header { position:fixed; left:0; right:0; top:0; background:#fff; border-bottom:1px solid #e5e5e5; padding:8px 12px; display:flex; gap:8px; align-items:center; z-index:10; }
+    header h1 { margin:0; font-size:14px; font-weight:700; }
+    header .spacer { flex:1 }
+    #mvWrap { position:fixed; inset:44px 0 160px 0; background:#e9eef5; }
+    model-viewer { width:100%; height:100%; background-color:#e9eef5; --poster-color:#e9eef5; }
+    footer { position:fixed; left:0; right:0; bottom:0; background:#fff; border-top:1px solid #e5e5e5; padding:8px 12px; }
+    #log { white-space:pre-wrap; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size:12px; line-height:1.3; color:#222; max-height:130px; overflow:auto; }
+    button { appearance:none; border:1px solid #ddd; background:#fafafa; padding:6px 10px; border-radius:10px; cursor:pointer; font-weight:600; }
+    .cta { font-weight:700; }
+  </style>
+
+  <!-- model-viewer -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@4.0.0/dist/model-viewer.min.js"></script>
+  <!-- Three.js r159 (UMD, global THREE) + GLTFExporter (legacy) -->
+  <script src="https://unpkg.com/three@0.159.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.159.0/examples/js/exporters/GLTFExporter.js"></script>
+</head>
+<body>
+  <header>
+    <h1>AR – Bloco com 6 fotos (faces/1.jpg..6.jpg)</h1>
+    <div class="spacer"></div>
+    <button id="btnRebuild">Recarregar fotos</button>
+    <button id="btnDownload" style="display:none">Baixar modelo</button>
+    <button id="btnAR">Abrir AR</button>
+  </header>
+
+  <div id="mvWrap">
+    <model-viewer id="mv"
+      camera-controls
+      ar ar-modes="webxr scene-viewer"
+      shadow-intensity="0.6"
+      exposure="1.0"
+      environment-image="neutral"
+      camera-orbit="0deg 65deg 2.2m"
+      camera-target="0m 0m 0m"
+      field-of-view="40deg"
+      interaction-prompt="auto">
+      <button slot="ar-button" class="cta">Ver em AR</button>
+    </model-viewer>
+  </div>
+
+  <footer>
+    <div id="log"></div>
+  </footer>
+
+  <script>
+    const mv = document.getElementById('mv');
+    const btnAR = document.getElementById('btnAR');
+    const btnRebuild = document.getElementById('btnRebuild');
+    const btnDownload = document.getElementById('btnDownload');
+    const logEl = document.getElementById('log');
+
+    function log(){ console.log.apply(console, arguments);
+      try { logEl.textContent += Array.from(arguments).map(a => (typeof a==='object'? JSON.stringify(a) : String(a))).join(' ') + "\\n"; } catch(e){}
+      logEl.scrollTop = logEl.scrollHeight;
+    }
+
+    log('UA:', navigator.userAgent);
+    log('Three version:', THREE && THREE.REVISION);
+
+    const faceUrls = [
+      'faces/1.jpg','faces/2.jpg','faces/3.jpg',
+      'faces/4.jpg','faces/5.jpg','faces/6.jpg',
+    ];
+
+    function loadImage(url){
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.onload = () => resolve(img);
+        img.onerror = (e) => reject(new Error('Falha ao carregar ' + url));
+        img.src = url + ('?t=' + Date.now()); // evita cache em testes
+      });
+    }
+
+    function letterboxToAspect(img, targetAspect, bg){
+      const imgAspect = img.naturalWidth / img.naturalHeight;
+      const base = 1024;
+      const cw = targetAspect >= 1 ? base : Math.round(base * targetAspect);
+      const ch = targetAspect >= 1 ? Math.round(base / targetAspect) : base;
+      const c = document.createElement('canvas'); c.width = cw; c.height = ch;
+      const ctx = c.getContext('2d');
+      ctx.fillStyle = bg; ctx.fillRect(0,0,cw,ch);
+      const scale = (imgAspect > targetAspect) ? (cw / img.naturalWidth) : (ch / img.naturalHeight);
+      const dw = Math.round(img.naturalWidth * scale);
+      const dh = Math.round(img.naturalHeight * scale);
+      const dx = Math.round((cw - dw) / 2);
+      const dy = Math.round((ch - dh) / 2);
+      ctx.drawImage(img, dx, dy, dw, dh);
+      return c;
+    }
+
+    async function build(){
+      log('Carregando imagens:', faceUrls.join(', '));
+      const imgs = [];
+      for (let i=0;i<faceUrls.length;i++){
+        try {
+          const im = await loadImage(faceUrls[i]);
+          log('OK:', faceUrls[i], im.naturalWidth+'x'+im.naturalHeight);
+          imgs.push(im);
+        } catch (e){
+          log('ERRO na imagem', faceUrls[i], e.message);
+          const ph = document.createElement('canvas'); ph.width=512; ph.height=512;
+          const g = ph.getContext('2d');
+          g.fillStyle='#eee'; g.fillRect(0,0,512,512);
+          g.fillStyle='#333'; g.font='28px system-ui';
+          g.fillText('missing', 20, 50);
+          g.fillText(faceUrls[i], 20, 85);
+          imgs.push({ naturalWidth:512, naturalHeight:512, _canvas:ph });
+        }
+      }
+
+      // Dimensões proporcionais à face 1
+      const baseAspect = imgs[0].naturalWidth / imgs[0].naturalHeight;
+      const height = 1.0;
+      const width  = baseAspect * height;
+      const depth  = baseAspect * height;
+      log('Dimensões (w,h,d):', width, height, depth, 'aspect base:', baseAspect.toFixed(3));
+
+      const aspects = [baseAspect, baseAspect, 1, 1, baseAspect, baseAspect];
+      const mats = [];
+      for (let i=0;i<6;i++){
+        const img = imgs[i]._canvas ? imgs[i]._canvas : imgs[i];
+        const canvas = letterboxToAspect(img, aspects[i], '#111');
+        const tex = new THREE.CanvasTexture(canvas);
+        tex.anisotropy = 8;
+        tex.needsUpdate = true;
+        const mat = new THREE.MeshStandardMaterial({ map: tex, roughness:.6, metalness:.02 });
+        mats.push(mat);
+      }
+
+      const scene = new THREE.Scene();
+      const boxGeo = new THREE.BoxGeometry(width, height, depth);
+      const mesh = new THREE.Mesh(boxGeo, mats);
+      scene.add(mesh);
+
+      const light = new THREE.DirectionalLight(0xffffff, 1.0);
+      light.position.set(3,4,5);
+      const target = new THREE.Object3D(); target.position.set(0,0,-1);
+      light.add(target); light.target = target;
+      scene.add(light);
+
+      // Exporta GLB com THREE.GLTFExporter (legacy)
+      log('Exportando GLB (THREE.GLTFExporter)…');
+      const exporter = new THREE.GLTFExporter();
+      exporter.parse(scene, function (arrayBuffer){
+        const blob = new Blob([arrayBuffer], { type:'model/gltf-binary' });
+        const url = URL.createObjectURL(blob);
+        log('GLB pronto. bytes=', arrayBuffer.byteLength, ' url=', url);
+        mv.src = url;
+
+        btnDownload.style.display = 'inline-block';
+        btnDownload.onclick = () => { const a=document.createElement('a'); a.href=url; a.download='bloco-fotos.glb'; a.click(); };
+      }, { binary:true, embedImages:true });
+    }
+
+    btnRebuild.addEventListener('click', build);
+    btnAR.addEventListener('click', () => mv.activateAR && mv.activateAR());
+
+    mv.addEventListener('load', () => log('model-viewer: load (modelo carregado).'));
+    mv.addEventListener('error', (e) => log('model-viewer: error:', e.message || JSON.stringify(e)));
+    mv.addEventListener('ar-status', (e) => log('model-viewer: ar-status:', e.detail.status));
+
+    build();
+  </script>
+</body>
+</html>
