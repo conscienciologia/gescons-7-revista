@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AR do Cubo (ESM + Debug)</title>
+  <style>
+    html,body { height:100%; margin:0; font-family:system-ui, Segoe UI, Roboto, Arial; background:#fff; }
+    header { padding:12px 16px; border-bottom:1px solid #eee; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+    header h1 { font-size:16px; margin:0; font-weight:700; }
+    #wrap { display:grid; grid-template-rows:auto 1fr auto; height:calc(100% - 56px); }
+    model-viewer { width:100%; height:100%; --poster-color:#fff; }
+    footer { text-align:center; font-size:12px; color:#666; padding:8px 0; border-top:1px solid #eee; }
+    .btn { appearance:none; border:1px solid #ddd; background:#fafafa; padding:6px 10px; border-radius:10px; cursor:pointer; font-weight:600; }
+    .cta { font-weight:700; }
+    #status { font-size:12px; color:#666; }
+    #log { white-space:pre-wrap; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size:12px; padding:8px; border-top:1px solid #eee; color:#333; background:#fafafa; }
+  </style>
+  <!-- model-viewer (as module) -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer@v4.0.0/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>AR do Cubo (ESM)</h1>
+    <span id="status">Preparando…</span>
+    <button id="btnDownload" class="btn" style="margin-left:auto; display:none">Baixar GLB</button>
+  </header>
+
+  <div id="wrap">
+    <model-viewer id="mv"
+      ar ar-modes="webxr scene-viewer quick-look"
+      camera-controls
+      tone-mapping="neutral"
+      shadow-intensity="0.8"
+      exposure="1.0">
+      <button slot="ar-button" class="cta">Ver em AR</button>
+    </model-viewer>
+    <div id="log"></div>
+    <footer>Requer HTTPS para AR. iOS Quick Look exige .usdz (não incluso neste teste).</footer>
+  </div>
+
+  <script type="module">
+    const logEl = document.getElementById('log');
+    const statusEl = document.getElementById('status');
+    const mv = document.getElementById('mv');
+    const btnDownload = document.getElementById('btnDownload');
+
+    function log(...args){
+      console.log(...args);
+      try { logEl.textContent += args.map(a => (typeof a==='object'? JSON.stringify(a) : String(a))).join(' ') + "\\n"; } catch(e){ /* ignore JSON cycles */ }
+    }
+
+    log('Iniciando módulo… navegador:', navigator.userAgent);
+
+    // Import ES Modules de Three.js + GLTFExporter (sem globais, sem múltiplas instâncias)
+    const threeVersion = '0.160.0'; // se mudar, mantenha consistente em todos os imports
+    log('Carregando Three.js versão', threeVersion);
+
+    const [
+      THREE,
+      GLTFExporterModule
+    ] = await Promise.all([
+      import(`https://unpkg.com/three@${threeVersion}/build/three.module.js`),
+      import(`https://unpkg.com/three@${threeVersion}/examples/jsm/exporters/GLTFExporter.js`),
+    ]);
+
+    const { Scene, Color, BoxGeometry, MeshStandardMaterial, Mesh, HemisphereLight, DirectionalLight } = THREE;
+    const { GLTFExporter } = GLTFExporterModule;
+
+    log('Three importado:', Object.keys(THREE).slice(0,10), '…');
+    log('GLTFExporter presente?', typeof GLTFExporter);
+
+    // 1) Criar cena mínima com cubo colorido
+    const scene = new Scene();
+    scene.background = new Color(0xffffff);
+    log('Cena criada.');
+
+    const size = 1.0;
+    const geo = new BoxGeometry(size, size, size);
+    const faceColors = [0xFF5252,0xFFEA00,0x69F0AE,0x40C4FF,0xFFAB40,0xB388FF];
+    const mats = faceColors.map(c => new MeshStandardMaterial({ color:c, roughness:.6, metalness:.05 }));
+    const cube = new Mesh(geo, mats);
+    scene.add(cube);
+    log('Cubo adicionado à cena.');
+
+    const hemi = new HemisphereLight(0xffffff, 0xdedede, 0.9);
+    const dir  = new DirectionalLight(0xffffff, 0.8);
+    dir.position.set(3,4,5);
+    scene.add(hemi, dir);
+    log('Luzes adicionadas.');
+
+    // 2) Exportar para GLB
+    try{
+      statusEl.textContent = 'Exportando GLB…';
+      const exporter = new GLTFExporter();
+      log('GLTFExporter instanciado.');
+
+      exporter.parse(scene, (arrayBuffer) => {
+        try {
+          log('Exportação concluída. Tamanho (bytes):', arrayBuffer.byteLength || -1);
+          const blob = new Blob([arrayBuffer], { type: 'model/gltf-binary' });
+          const url = URL.createObjectURL(blob);
+          log('Blob URL:', url);
+          mv.src = url;
+          statusEl.textContent = 'Modelo pronto. Toque em “Ver em AR”.';
+
+          // Download
+          btnDownload.style.display = 'inline-block';
+          btnDownload.onclick = () => {
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'cubo.glb';
+            a.click();
+          };
+        } catch (e){
+          console.error('Falha ao preparar Blob/URL:', e);
+          log('Erro preparando Blob/URL:', String(e));
+          statusEl.textContent = 'Falha ao preparar o modelo.';
+        }
+      }, { binary: true });
+
+    } catch (e){
+      console.error('Erro na exportação GLB:', e);
+      log('Erro na exportação GLB:', String(e));
+      statusEl.textContent = 'Erro durante a exportação.';
+    }
+
+    // Eventos do model-viewer (para inspecionar)
+    mv.addEventListener('load', () => log('model-viewer: load (modelo carregado).'));
+    mv.addEventListener('ar-status', (e) => log('model-viewer: ar-status =', e.detail.status));
+    mv.addEventListener('ar-tracking', (e) => log('model-viewer: ar-tracking =', JSON.stringify(e.detail)));
+    mv.addEventListener('error', (e) => log('model-viewer: error =', e.message || JSON.stringify(e)));
+  </script>
+</body>
+</html>
